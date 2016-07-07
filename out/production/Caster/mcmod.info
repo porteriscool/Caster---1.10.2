@@ -1,0 +1,25 @@
+[
+{
+  "modid": "caster",
+  "name": "Caster",
+  "description": "",
+  "version": "1.10.2-0.0.1",
+  "url": "None ATM",
+  "updateUrl": "",
+  "authorList":
+  [
+    "porteriscool"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots":
+  [
+
+  ],
+  "parent":"",
+  "dependencies":
+  [
+
+  ]
+}
+]
