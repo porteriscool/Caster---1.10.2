@@ -1,1 +1,4 @@
-item.guidebook.name=Guide Book
+itemGroup.caster=Caster
+
+//Items
+item.caster.guidebook.name=Guide Book

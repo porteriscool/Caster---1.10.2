@@ -1,6 +1,9 @@
 package com.porteriscool.caster.proxy;
 
-public interface CommonProxy
+public class CommonProxy
 {
-    public void init();
+    public void registerRenders()
+    {
+
+    }
 }

@@ -1,6 +1,7 @@
 package com.porteriscool.caster;
 
 import com.porteriscool.caster.handler.ConfigurationHandler;
+import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.proxy.CommonProxy;
 import com.porteriscool.caster.reference.Reference;
 import com.porteriscool.caster.utility.LogHelper;
@@ -25,9 +26,14 @@ public class Caster
         @EventHandler
         public void preInit(FMLPreInitializationEvent event)
         {
+            instance = this;
+
             ConfigurationHandler.init(event.getSuggestedConfigurationFile());
             FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
             LogHelper.info("Pre Initialization Complete");
+
+            ModItems.init();
+            proxy.registerRenders();
         }
 
         @EventHandler

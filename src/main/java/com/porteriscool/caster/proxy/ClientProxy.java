@@ -1,10 +1,12 @@
 package com.porteriscool.caster.proxy;
 
-public class ClientProxy implements CommonProxy
+import com.porteriscool.caster.init.ModelHandler;
+
+public class ClientProxy extends CommonProxy
 {
     @Override
-    public void init()
+    public void registerRenders()
     {
-
+        ModelHandler.init();
     }
 }
