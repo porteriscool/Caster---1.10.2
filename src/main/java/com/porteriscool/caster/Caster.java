@@ -1,7 +1,6 @@
 package com.porteriscool.caster;
 
 import com.porteriscool.caster.handler.ConfigurationHandler;
-import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.proxy.CommonProxy;
 import com.porteriscool.caster.reference.Reference;
 import com.porteriscool.caster.utility.LogHelper;
