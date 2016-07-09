@@ -2,3 +2,7 @@ itemGroup.caster=Caster
 
 //Items
 item.caster.guidebook.name=Guide Book
+item.caster.emptybottle.name=Empty Bottle
+item.caster.bottleofelixir.name=Bottle of Elixir
+item.caster.twig.name=Twig
+item.caster.leaf.name=Leaf

@@ -31,20 +31,23 @@ public class Caster
             ConfigurationHandler.init(event.getSuggestedConfigurationFile());
             FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
             LogHelper.info("Pre Initialization Complete");
+            proxy.preInit(event);
 
             ModItems.init();
             proxy.registerRenders();
         }
 
         @EventHandler
-        public void init(FMLInitializationEvent event)
+        public void init(FMLInitializationEvent e)
         {
             LogHelper.info("Initialization Complete");
+            proxy.init(e);
         }
 
         @EventHandler
-        public void postInit(FMLPostInitializationEvent event)
+        public void postInit(FMLPostInitializationEvent e)
         {
             LogHelper.info("Post Initialization Complete");
+            proxy.postInit(e);
         }
     }

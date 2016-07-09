@@ -11,6 +11,10 @@ public class ModelHandler
     public static void init()
     {
         registerItemModel(ModItems.guidebook, 0);
+        registerItemModel(ModItems.emptybottle, 0);
+        registerItemModel(ModItems.bottleofelixir, 0);
+        registerItemModel(ModItems.twig, 0);
+        registerItemModel(ModItems.leaf, 0);
 
         int i;
 
