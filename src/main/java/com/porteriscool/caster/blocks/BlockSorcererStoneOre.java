@@ -1,4 +1,4 @@
-/*package com.porteriscool.caster.blocks;
+package com.porteriscool.caster.blocks;
 
 import com.porteriscool.caster.CreativeTabCaster;
 import com.porteriscool.caster.reference.Reference;
@@ -13,7 +13,6 @@ public class BlockSorcererStoneOre extends Block
         setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".sorcererstoneore");
         setRegistryName("sorcererstoneore");
         setHardness(1.0F);
-        setCreativeTab(CreativeTabCaster.BUILDING_BLOCKS);
+        setCreativeTab(CreativeTabCaster.instance);
     }
 }
-*/

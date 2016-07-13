@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa6f510d-394b-4979-838c-d5458609e501" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/blockstates/BlockSorcererStoneOre.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/sorcererstoneore.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererstoneore.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/bottleofelixir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/emptybottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/guidebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/leaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/twig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/blocks/BlockSorcererStoneOre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModBlocks.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/Caster.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/Caster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/ClientProxy.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/ClientProxy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-1.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-2.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-3.log.gz" />
@@ -31,14 +22,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-3.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-3.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Caster.iws" afterPath="$PROJECT_DIR$/Caster.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/lang/en_US.lang" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usercache.json" afterPath="$PROJECT_DIR$/run/usercache.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
     </list>
     <ignored path="Caster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,12 +87,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Caster.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java">
+      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockSorcererStoneOre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalsickle.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemSorcerersWand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererswand.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/ores/BlockSorcerersStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/ItemBlocksBase.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/sorcerersstoneore.json" />
@@ -176,9 +178,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererstoneore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
       </list>
     </option>
   </component>
@@ -876,13 +879,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.50282484" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32801822" sideWeight="0.49717513" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.49717513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -923,16 +926,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/airgem.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/watergem.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafgem.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1064,30 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/CreativeTabCaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/ItemBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1194,29 +1163,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemCrafting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-248">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,14 +1215,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/models/block/sorcererstoneore.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,16 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1343,13 +1276,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/ItemBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="51" />
           <folding>
-            <element signature="e#0#1229#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemBottleElixir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,6 +1309,66 @@
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.0.2007-1.10.0/snapshot/20160518/forgeSrc-1.10.2-12.18.0.2007-1.10.0-sources.jar!/net/minecraft/creativetab/CreativeTabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/CreativeTabCaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/models/block/sorcererstoneore.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockSorcererStoneOre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
