@@ -10,8 +10,7 @@ public class BlockSorcererStoneOre extends Block
     public BlockSorcererStoneOre()
     {
         super(Material.ROCK);
-        setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".sorcererstoneore");
-        setRegistryName("sorcererstoneore");
+        setUnlocalizedName(Reference.MOD_ID + ".sorcererstoneore");
         setHardness(1.0F);
         setCreativeTab(CreativeTabCaster.instance);
     }

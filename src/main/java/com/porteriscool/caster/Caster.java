@@ -1,7 +1,7 @@
 package com.porteriscool.caster;
 
 import com.porteriscool.caster.handler.ConfigurationHandler;
-//import com.porteriscool.caster.init.ModBlocks;
+import com.porteriscool.caster.init.ModBlocks;
 import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.proxy.CommonProxy;
 import com.porteriscool.caster.reference.Reference;
@@ -24,7 +24,7 @@ public class Caster
         @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
         public static CommonProxy proxy;
 
-        @EventHandler
+        @Mod.EventHandler
         public void preInit(FMLPreInitializationEvent event)
         {
             instance = this;
@@ -35,18 +35,18 @@ public class Caster
             proxy.preInit(event);
 
             ModItems.init();
-            //ModBlocks.init();
+            ModBlocks.init();
             proxy.registerRenders();
         }
 
-        @EventHandler
+        @Mod.EventHandler
         public void init(FMLInitializationEvent event)
         {
             LogHelper.info("Initialization Complete");
             proxy.init(event);
         }
 
-        @EventHandler
+        @Mod.EventHandler
         public void postInit(FMLPostInitializationEvent event)
         {
             LogHelper.info("Post Initialization Complete");
