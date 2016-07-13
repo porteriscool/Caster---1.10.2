@@ -1,5 +1,6 @@
-package com.porteriscool.caster.items;
+package com.porteriscool.caster.items.misc;
 
+import com.porteriscool.caster.items.ItemBase;
 import com.porteriscool.caster.reference.Reference;
 
 public class ItemGuideBook extends ItemBase

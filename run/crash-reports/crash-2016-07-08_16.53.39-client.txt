@@ -4,7 +4,7 @@
 Time: 7/8/16 4:53 PM
 Description: Initializing game
 
-java.lang.IllegalArgumentException: The name caster:guideBook has been registered twice, for com.porteriscool.caster.items.ItemGuideBook@aa0aa6 and com.porteriscool.caster.items.ItemGuideBook@4ee80d4c.
+java.lang.IllegalArgumentException: The name caster:guideBook has been registered twice, for com.porteriscool.caster.items.misc.ItemGuideBook@aa0aa6 and com.porteriscool.caster.items.misc.ItemGuideBook@4ee80d4c.
 	at net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:460)
 	at net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry.register(FMLControlledNamespacedRegistry.java:822)
 	at net.minecraftforge.fml.common.registry.GameData.register_impl(GameData.java:250)

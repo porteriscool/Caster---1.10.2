@@ -6,3 +6,16 @@ item.caster.emptybottle.name=Empty Bottle
 item.caster.bottleofelixir.name=Bottle of Elixir
 item.caster.twig.name=Twig
 item.caster.leaf.name=Leaf
+item.caster.leafcrystal.name=Leaf Crystal
+item.caster.firecrystal.name=Fire Crystal
+
+//Tools
+item.caster.elementalpickaxe.name=Elemental Pickaxe
+item.caster.elementalsword.name=Elemental Sword
+item.caster.elementalshovel.name=Elemental Shovel
+item.caster.elementalaxe.name=Elemental Axe
+item.caster.elementalsickle.name=Elemental Sickle
+item.caster.sorcererswand.name=Sorcerer's Wand
+item.caster.ironsickle.name=Iron Sickle
+
+//Armor

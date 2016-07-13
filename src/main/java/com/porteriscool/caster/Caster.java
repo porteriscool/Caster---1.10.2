@@ -38,16 +38,16 @@ public class Caster
         }
 
         @EventHandler
-        public void init(FMLInitializationEvent e)
+        public void init(FMLInitializationEvent event)
         {
             LogHelper.info("Initialization Complete");
-            proxy.init(e);
+            proxy.init(event);
         }
 
         @EventHandler
-        public void postInit(FMLPostInitializationEvent e)
+        public void postInit(FMLPostInitializationEvent event)
         {
             LogHelper.info("Post Initialization Complete");
-            proxy.postInit(e);
+            proxy.postInit(event);
         }
     }

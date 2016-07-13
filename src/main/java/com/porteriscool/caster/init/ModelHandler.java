@@ -15,6 +15,16 @@ public class ModelHandler
         registerItemModel(ModItems.bottleofelixir, 0);
         registerItemModel(ModItems.twig, 0);
         registerItemModel(ModItems.leaf, 0);
+        registerItemModel(ModItems.leafcrystal, 0);
+        registerItemModel(ModItems.firecrystal, 0);
+
+        registerItemModel(ModItems.elementalpickaxe, 0);
+        registerItemModel(ModItems.elementalaxe, 0);
+        registerItemModel(ModItems.elementalshovel, 0);
+        registerItemModel(ModItems.elementalsword, 0);
+        registerItemModel(ModItems.elementalsickle, 0);
+        registerItemModel(ModItems.sorcererswand, 0);
+        registerItemModel(ModItems.ironsickle, 0);
 
         int i;
 

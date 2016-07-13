@@ -4,7 +4,7 @@
 Time: 7/8/16 12:23 PM
 Description: Initializing game
 
-java.lang.IllegalArgumentException: No registry name set for object com.porteriscool.caster.items.ItemGuideBook@615ef430 (com.porteriscool.caster.items.ItemGuideBook)
+java.lang.IllegalArgumentException: No registry name set for object com.porteriscool.caster.items.misc.ItemGuideBook@615ef430 (com.porteriscool.caster.items.misc.ItemGuideBook)
 	at net.minecraftforge.fml.common.registry.GameData.register_impl(GameData.java:247)
 	at net.minecraftforge.fml.common.registry.GameRegistry.register(GameRegistry.java:153)
 	at com.porteriscool.caster.init.ModItems.init(ModItems.java:18)

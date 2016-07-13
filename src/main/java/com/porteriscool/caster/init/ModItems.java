@@ -1,7 +1,8 @@
 package com.porteriscool.caster.init;
 
 import com.porteriscool.caster.items.misc.*;
-import com.porteriscool.caster.items.ItemGuideBook;
+import com.porteriscool.caster.items.misc.ItemGuideBook;
+import com.porteriscool.caster.items.tools.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -14,6 +15,16 @@ public class ModItems
     public static Item bottleofelixir;
     public static Item leaf;
     public static Item twig;
+    public static Item leafcrystal;
+    public static Item firecrystal;
+
+    public static Item elementalpickaxe;
+    public static Item elementalaxe;
+    public static Item elementalshovel;
+    public static Item elementalsword;
+    public static Item elementalsickle;
+    public static Item sorcererswand;
+    public static Item ironsickle;
 
     public static Item crafting;
 
@@ -33,6 +44,33 @@ public class ModItems
 
         twig = new ItemTwig();
         GameRegistry.register(twig);
+
+        leafcrystal = new ItemLeafCrystal();
+        GameRegistry.register(leafcrystal);
+
+        firecrystal = new ItemFireCrystal();
+        GameRegistry.register(firecrystal);
+
+        elementalpickaxe = new ItemElementalPickaxe();
+        GameRegistry.register(elementalpickaxe);
+
+        elementalaxe = new ItemElementalAxe();
+        GameRegistry.register(elementalaxe);
+
+        elementalshovel = new ItemElementalShovel();
+        GameRegistry.register(elementalshovel);
+
+        elementalsword = new ItemElementalSword();
+        GameRegistry.register(elementalsword);
+
+        elementalsickle = new ItemElementalSickle();
+        GameRegistry.register(elementalsickle);
+
+        sorcererswand = new ItemSorcerersWand();
+        GameRegistry.register(sorcererswand);
+
+        ironsickle = new ItemIronSickle();
+        GameRegistry.register(ironsickle);
 
         int i;
 
