@@ -2,6 +2,7 @@ package com.porteriscool.caster.init;
 
 import com.porteriscool.caster.blocks.BlockSorcererStoneOre;
 import net.minecraft.block.Block;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks
@@ -11,7 +12,6 @@ public class ModBlocks
     public static void init()
     {
         sorcererstoneore = new BlockSorcererStoneOre();
-
-        GameRegistry.register(sorcererstoneore, "sorcererstoneore");
+        GameRegistry.register(sorcererstoneore ,sorcererstoneore.getRegistryName());
     }
 }
