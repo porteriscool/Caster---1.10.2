@@ -19,3 +19,6 @@ item.caster.sorcererswand.name=Sorcerer's Wand
 item.caster.ironsickle.name=Iron Sickle
 
 //Armor
+
+//Block
+tile.caster.sorcererstoneore.name=Sorcerer's Stone Ore

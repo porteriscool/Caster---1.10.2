@@ -1,6 +1,7 @@
 package com.porteriscool.caster;
 
 import com.porteriscool.caster.handler.ConfigurationHandler;
+//import com.porteriscool.caster.init.ModBlocks;
 import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.proxy.CommonProxy;
 import com.porteriscool.caster.reference.Reference;
@@ -34,6 +35,7 @@ public class Caster
             proxy.preInit(event);
 
             ModItems.init();
+            //ModBlocks.init();
             proxy.registerRenders();
         }
 
