@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa6f510d-394b-4979-838c-d5458609e501" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemFireCrystal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafCrystal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalAxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalPickaxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalShovel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSickle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemIronSickle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemSorcerersWand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalpickaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalshovel.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalsickle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalsword.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/firecrystal.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/ironsickle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafcrystal.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererswand.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/ItemGuideBook.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/ItemGuideBook.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemGuideBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/Caster.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/Caster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModItems.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModItems.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModelHandler.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModelHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/ClientProxy.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/ClientProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/CommonProxy.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/CommonProxy.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/block/sorcerersstoneore.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/blocks/BlockBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/blocks/ores/BlockSorcerersStone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModBlocks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/ItemBlocksBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/guidebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leaf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/twig.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-13-7.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-13-7.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
@@ -37,33 +27,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-3.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-3.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Caster.iws" afterPath="$PROJECT_DIR$/Caster.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/bottleofelixir.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/bottleofelixir.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/emptybottle.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/emptybottle.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/guidebook.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/guidebook.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/leaf.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/leaf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/twig.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/twig.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_12.23.02-client.txt" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_12.23.02-client.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.50.28-client.txt" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.50.28-client.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.50.58-client.txt" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.50.58-client.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.53.39-client.txt" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.53.39-client.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.54.05-client.txt" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.54.05-client.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.54.56-client.txt" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2016-07-08_16.54.56-client.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usercache.json" afterPath="$PROJECT_DIR$/run/usercache.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/CommonProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/bottleofelixir.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/bottleofelixir.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/emptybottle.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/emptybottle.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/guidebook.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/guidebook.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leaf.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leaf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/twig.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/twig.json" />
     </list>
     <ignored path="Caster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,20 +89,7 @@
     <favorites_list name="Caster" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModelHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/FirstBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeaf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemBottleElixir.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemTwig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafIngot.java" />
@@ -197,15 +149,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSickle.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalsickle.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemSorcerersWand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererswand.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/ores/BlockSorcerersStone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/ItemBlocksBase.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/sorcerersstoneore.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/block/sorcerersstoneore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/block/SorcerersStoneOre.java" />
       </list>
     </option>
   </component>
@@ -455,28 +409,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client.gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -859,7 +791,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="114" width="1239" height="947" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -873,7 +805,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27764326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27764326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -902,22 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.0.2007-1.10.0/snapshot/20160518/forgeSrc-1.10.2-12.18.0.2007-1.10.0-sources.jar!/net/minecraft/item/ItemTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.0.2007-1.10.0/snapshot/20160518/forgeSrc-1.10.2-12.18.0.2007-1.10.0-sources.jar!/net/minecraftforge/client/model/obj/OBJLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.0.2007-1.10.0/snapshot/20160518/forgeSrc-1.10.2-12.18.0.2007-1.10.0-sources.jar!/net/minecraftforge/client/model/obj/OBJModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5445">
@@ -1241,16 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererswand.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1307,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1323,13 +1221,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemCrafting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-98">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/block/SorcerersStoneOre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
