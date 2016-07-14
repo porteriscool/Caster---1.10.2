@@ -66,11 +66,11 @@ public class ModItems
         elementalsickle = new ItemElementalSickle();
         GameRegistry.register(elementalsickle);
 
-        sorcererswand = new ItemSorcerersWand();
-        GameRegistry.register(sorcererswand);
-
         ironsickle = new ItemIronSickle();
         GameRegistry.register(ironsickle);
+
+        sorcererswand = new ItemSorcerersWand();
+        GameRegistry.register(sorcererswand);
 
         int i;
 

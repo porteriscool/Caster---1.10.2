@@ -11,7 +11,6 @@ public class BlockSorcererStoneOre extends Block
     {
         super(Material.ROCK);
         setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".sorcererstoneore");
-        setRegistryName("sorcererstoneore");
         setHardness(1.0F);
         setCreativeTab(CreativeTabCaster.instance);
     }

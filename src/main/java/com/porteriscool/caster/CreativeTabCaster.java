@@ -11,7 +11,7 @@ public class CreativeTabCaster extends CreativeTabs
 
     public CreativeTabCaster()
     {
-        super(Reference.MOD_ID);
+        super(Reference.MOD_ID.toLowerCase());
     }
 
     @Override

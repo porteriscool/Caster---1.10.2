@@ -1,7 +1,6 @@
 {
   "parent": "block/cube_all",
-  "textures":
-  {
-    "all": "caster:blocks/sorcerstoneore"
+  "textures": {
+    "all": "caster:blocks/sorcererstoneore"
   }
 }
