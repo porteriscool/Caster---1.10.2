@@ -1,3 +1,6 @@
 {
-  "parent": "caster:block/sorcererstoneore"
+  "parent": "block/block",
+  "textures": {
+    "all": "caster:blocks/sorcererstoneore"
+  }
 }

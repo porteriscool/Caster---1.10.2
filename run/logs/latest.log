@@ -1,114 +1,113 @@
-[18:04:25] [main/INFO]: Extra: []
-[18:04:25] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/MattPorter/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[18:04:25] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[18:04:25] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[18:04:25] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[18:04:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[18:04:25] [main/INFO]: Forge Mod Loader version 12.18.0.2007 for Minecraft 1.10.2 loading
-[18:04:25] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_74, running on Mac OS X:x86_64:10.11.3, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre
-[18:04:25] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[18:04:25] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[18:04:25] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[18:04:25] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[18:04:25] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:04:25] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:04:25] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[18:04:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:04:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:04:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:04:25] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[18:04:26] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[18:04:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:04:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:04:26] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[18:04:26] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:04:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:04:26] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[18:04:28] [Client thread/INFO]: Setting user: Player200
-[18:04:31] [Client thread/WARN]: Skipping bad option: lastServer:
-[18:04:31] [Client thread/INFO]: LWJGL Version: 2.9.2
-[18:04:31] [Client thread/INFO]: MinecraftForge v12.18.0.2007 Initialized
-[18:04:31] [Client thread/INFO]: Replaced 233 ore recipes
-[18:04:31] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[18:04:31] [Client thread/INFO]: Searching /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/run/mods for mods
-[18:04:34] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[18:04:34] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at CLIENT
-[18:04:34] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at SERVER
-[18:04:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
-[18:04:34] [Client thread/INFO]: Processing ObjectHolder annotations
-[18:04:34] [Client thread/INFO]: Found 423 ObjectHolder annotations
-[18:04:34] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[18:04:34] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[18:04:34] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[18:04:34] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18:04:34] [Client thread/INFO]: Pre Initialization Complete
-[18:04:35] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.1.2011
-[18:04:35] [Client thread/INFO]: Applying holder lookups
-[18:04:35] [Client thread/INFO]: Holder lookups applied
-[18:04:35] [Client thread/INFO]: Injecting itemstacks
-[18:04:35] [Client thread/INFO]: Itemstack injection complete
-[18:04:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[18:04:36] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[18:04:36] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[18:04:36] [Thread-6/INFO]: OpenAL initialized.
-[18:04:36] [Sound Library Loader/INFO]: Sound engine started
-[18:04:38] [Client thread/INFO]: Max texture size: 16384
-[18:04:38] [Client thread/INFO]: Created: 16x16 textures-atlas
-[18:04:39] [Client thread/INFO]: Initialization Complete
-[18:04:39] [Client thread/INFO]: Injecting itemstacks
-[18:04:39] [Client thread/INFO]: Itemstack injection complete
-[18:04:39] [Client thread/INFO]: Post Initialization Complete
-[18:04:39] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[18:04:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
-[18:04:40] [Client thread/INFO]: SoundSystem shutting down...
-[18:04:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[18:04:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[18:04:40] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[18:04:40] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[18:04:40] [Thread-8/INFO]: OpenAL initialized.
-[18:04:40] [Sound Library Loader/INFO]: Sound engine started
-[18:04:41] [Client thread/INFO]: Max texture size: 16384
-[18:04:42] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[18:04:42] [Client thread/WARN]: Skipping bad option: lastServer:
-[18:04:42] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[18:04:42] [Client thread/ERROR]: The following texture errors were found.
-[18:04:42] [Client thread/ERROR]: ==================================================
-[18:04:42] [Client thread/ERROR]:   DOMAIN caster
-[18:04:42] [Client thread/ERROR]: --------------------------------------------------
-[18:04:42] [Client thread/ERROR]:   domain caster is missing 2 textures
-[18:04:42] [Client thread/ERROR]:     domain caster has 1 location:
-[18:04:42] [Client thread/ERROR]:       mod Caster resources at /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/out/production/Caster
-[18:04:42] [Client thread/ERROR]: -------------------------
-[18:04:42] [Client thread/ERROR]:     The missing resources for domain caster are:
-[18:04:42] [Client thread/ERROR]:       textures/items/sorcererswand.png
-[18:04:42] [Client thread/ERROR]:       textures/items/elementalsickle.png
-[18:04:42] [Client thread/ERROR]: -------------------------
-[18:04:42] [Client thread/ERROR]:     No other errors exist for domain caster
-[18:04:42] [Client thread/ERROR]: ==================================================
-[18:04:42] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[18:04:43] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[18:04:45] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
-[18:04:45] [Server thread/INFO]: Generating keypair
-[18:04:45] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[18:04:45] [Server thread/INFO]: Applying holder lookups
-[18:04:45] [Server thread/INFO]: Holder lookups applied
-[18:04:45] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@6e9d63e4)
-[18:04:45] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@6e9d63e4)
-[18:04:45] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@6e9d63e4)
-[18:04:45] [Server thread/INFO]: Preparing start region for level 0
-[18:04:46] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:04:46] [Netty Local Client IO #0/INFO]: Server protocol version 2
-[18:04:46] [Netty Server IO #1/INFO]: Client protocol version 2
-[18:04:46] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@12.18.0.2007,mcp@9.19,Caster@1.10.2-0.0.1
-[18:04:46] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
-[18:04:47] [Server thread/INFO]: [Server thread] Server side modded connection established
-[18:04:47] [Server thread/INFO]: Player200[local:E:a465aba7] logged in with entity id 0 at (408.0630399944225, 55.67695623687366, 266.7892544386319)
-[18:04:47] [Server thread/INFO]: Player200 joined the game
-[18:04:48] [Server thread/INFO]: Saving and pausing game...
-[18:04:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[18:04:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[18:04:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[18:04:48] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@3d7527db[id=e2f2d8ad-63d3-3d66-8818-3aa1e92fae1a,name=Player200,properties={},legacy=false]
+[14:35:37] [main/INFO]: Extra: []
+[14:35:37] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/MattPorter/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[14:35:37] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:35:37] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:35:37] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:35:37] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:35:37] [main/INFO]: Forge Mod Loader version 12.18.0.2007 for Minecraft 1.10.2 loading
+[14:35:37] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_74, running on Mac OS X:x86_64:10.11.3, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre
+[14:35:37] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:35:37] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:35:37] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[14:35:37] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:35:37] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:35:37] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:35:37] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:35:37] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:35:37] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:35:37] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:35:37] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[14:35:38] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[14:35:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:35:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:35:38] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:35:38] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:35:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:35:38] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:35:40] [Client thread/INFO]: Setting user: Player237
+[14:35:43] [Client thread/WARN]: Skipping bad option: lastServer:
+[14:35:43] [Client thread/INFO]: LWJGL Version: 2.9.2
+[14:35:43] [Client thread/INFO]: MinecraftForge v12.18.0.2007 Initialized
+[14:35:44] [Client thread/INFO]: Replaced 233 ore recipes
+[14:35:44] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[14:35:44] [Client thread/INFO]: Searching /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/run/mods for mods
+[14:35:46] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[14:35:47] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at CLIENT
+[14:35:47] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at SERVER
+[14:35:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:35:47] [Client thread/INFO]: Processing ObjectHolder annotations
+[14:35:47] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[14:35:47] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[14:35:47] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[14:35:47] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[14:35:47] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:35:47] [Client thread/INFO]: Pre Initialization Complete
+[14:35:47] [Client thread/INFO]: Applying holder lookups
+[14:35:47] [Client thread/INFO]: Holder lookups applied
+[14:35:47] [Client thread/INFO]: Injecting itemstacks
+[14:35:47] [Client thread/INFO]: Itemstack injection complete
+[14:35:48] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.1.2011
+[14:35:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:35:49] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[14:35:49] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:35:49] [Thread-6/INFO]: OpenAL initialized.
+[14:35:49] [Sound Library Loader/INFO]: Sound engine started
+[14:35:51] [Client thread/INFO]: Max texture size: 16384
+[14:35:51] [Client thread/INFO]: Created: 16x16 textures-atlas
+[14:35:52] [Client thread/INFO]: Initialization Complete
+[14:35:52] [Client thread/INFO]: Injecting itemstacks
+[14:35:52] [Client thread/INFO]: Itemstack injection complete
+[14:35:52] [Client thread/INFO]: Post Initialization Complete
+[14:35:52] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[14:35:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:35:53] [Client thread/INFO]: SoundSystem shutting down...
+[14:35:53] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:35:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:35:53] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[14:35:53] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:35:53] [Thread-8/INFO]: OpenAL initialized.
+[14:35:54] [Sound Library Loader/INFO]: Sound engine started
+[14:35:54] [Client thread/INFO]: Max texture size: 16384
+[14:35:55] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:35:55] [Client thread/WARN]: Skipping bad option: lastServer:
+[14:35:56] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[14:35:56] [Client thread/ERROR]: The following texture errors were found.
+[14:35:56] [Client thread/ERROR]: ==================================================
+[14:35:56] [Client thread/ERROR]:   DOMAIN caster
+[14:35:56] [Client thread/ERROR]: --------------------------------------------------
+[14:35:56] [Client thread/ERROR]:   domain caster is missing 1 texture
+[14:35:56] [Client thread/ERROR]:     domain caster has 1 location:
+[14:35:56] [Client thread/ERROR]:       mod Caster resources at /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/out/production/Caster
+[14:35:56] [Client thread/ERROR]: -------------------------
+[14:35:56] [Client thread/ERROR]:     The missing resources for domain caster are:
+[14:35:56] [Client thread/ERROR]:       textures/items/elementalsickle.png
+[14:35:56] [Client thread/ERROR]: -------------------------
+[14:35:56] [Client thread/ERROR]:     No other errors exist for domain caster
+[14:35:56] [Client thread/ERROR]: ==================================================
+[14:35:56] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[14:35:56] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:36:00] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[14:36:00] [Server thread/INFO]: Generating keypair
+[14:36:00] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[14:36:00] [Server thread/INFO]: Applying holder lookups
+[14:36:00] [Server thread/INFO]: Holder lookups applied
+[14:36:00] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@41a1ca8f)
+[14:36:01] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@41a1ca8f)
+[14:36:01] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@41a1ca8f)
+[14:36:01] [Server thread/INFO]: Preparing start region for level 0
+[14:36:01] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:36:02] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[14:36:02] [Netty Server IO #1/INFO]: Client protocol version 2
+[14:36:02] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@12.18.0.2007,mcp@9.19,Caster@1.10.2-0.0.1
+[14:36:02] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[14:36:02] [Server thread/INFO]: [Server thread] Server side modded connection established
+[14:36:02] [Server thread/INFO]: Player237[local:E:03fa14c1] logged in with entity id 0 at (406.20515222725294, 56.0, 273.3370942512169)
+[14:36:02] [Server thread/INFO]: Player237 joined the game
+[14:36:03] [Server thread/INFO]: Saving and pausing game...
+[14:36:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:36:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:36:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:36:03] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@354ce537[id=e6f6e71e-f1b8-32cb-a47d-066aff706ad2,name=Player237,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
@@ -130,6 +129,1008 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_74]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_74]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_74]
-[18:05:23] [Server thread/INFO]: Player200 has just earned the achievement [Taking Inventory]
-[18:05:23] [Client thread/INFO]: [CHAT] Player200 has just earned the achievement [Taking Inventory]
-[18:06:30] [Client Shutdown Thread/INFO]: Stopping server
+[14:36:04] [Server thread/INFO]: Player237 has just earned the achievement [Taking Inventory]
+[14:36:04] [Client thread/INFO]: [CHAT] Player237 has just earned the achievement [Taking Inventory]
+[14:37:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:37:37] [Client thread/INFO]: SoundSystem shutting down...
+[14:37:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:37:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:37:37] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[14:37:37] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:37:37] [Thread-12/INFO]: OpenAL initialized.
+[14:37:38] [Sound Library Loader/INFO]: Sound engine started
+[14:37:38] [Client thread/INFO]: Max texture size: 16384
+[14:37:38] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:37:39] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:38:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:38:06] [Client thread/INFO]: SoundSystem shutting down...
+[14:38:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:38:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:38:07] [Thread-14/INFO]: Initializing LWJGL OpenAL
+[14:38:07] [Thread-14/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:38:07] [Thread-14/INFO]: OpenAL initialized.
+[14:38:07] [Sound Library Loader/INFO]: Sound engine started
+[14:38:08] [Client thread/INFO]: Max texture size: 16384
+[14:38:08] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:38:08] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:38:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:38:21] [Client thread/INFO]: SoundSystem shutting down...
+[14:38:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:38:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:38:22] [Thread-16/INFO]: Initializing LWJGL OpenAL
+[14:38:22] [Thread-16/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:38:22] [Thread-16/INFO]: OpenAL initialized.
+[14:38:22] [Sound Library Loader/INFO]: Sound engine started
+[14:38:23] [Client thread/INFO]: Max texture size: 16384
+[14:38:23] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:38:23] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:39:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:39:31] [Client thread/INFO]: SoundSystem shutting down...
+[14:39:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:39:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:39:32] [Thread-18/INFO]: Initializing LWJGL OpenAL
+[14:39:32] [Thread-18/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:39:32] [Thread-18/INFO]: OpenAL initialized.
+[14:39:32] [Sound Library Loader/INFO]: Sound engine started
+[14:39:33] [Client thread/INFO]: Max texture size: 16384
+[14:39:33] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:39:33] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:39:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:39:40] [Client thread/INFO]: SoundSystem shutting down...
+[14:39:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:39:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:39:41] [Thread-20/INFO]: Initializing LWJGL OpenAL
+[14:39:41] [Thread-20/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:39:41] [Thread-20/INFO]: OpenAL initialized.
+[14:39:41] [Sound Library Loader/INFO]: Sound engine started
+[14:39:41] [Client thread/INFO]: Max texture size: 16384
+[14:39:42] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:39:42] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:41:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:41:47] [Client thread/INFO]: SoundSystem shutting down...
+[14:41:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:41:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:41:47] [Thread-22/INFO]: Initializing LWJGL OpenAL
+[14:41:47] [Thread-22/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:41:47] [Thread-22/INFO]: OpenAL initialized.
+[14:41:47] [Sound Library Loader/INFO]: Sound engine started
+[14:41:48] [Client thread/INFO]: Max texture size: 16384
+[14:41:48] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:41:49] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:42:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:42:41] [Client thread/INFO]: SoundSystem shutting down...
+[14:42:42] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:42:42] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:42:42] [Thread-24/INFO]: Initializing LWJGL OpenAL
+[14:42:42] [Thread-24/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:42:42] [Thread-24/INFO]: OpenAL initialized.
+[14:42:42] [Sound Library Loader/INFO]: Sound engine started
+[14:42:43] [Client thread/INFO]: Max texture size: 16384
+[14:42:43] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:42:43] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:42:59] [Server thread/INFO]: Saving and pausing game...
+[14:42:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:42:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:42:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:44:10] [Server thread/INFO]: [Player237: Set the time to 0]
+[14:44:10] [Client thread/INFO]: [CHAT] Set the time to 0
+[14:44:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:44:13] [Client thread/INFO]: SoundSystem shutting down...
+[14:44:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:44:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:44:13] [Thread-26/INFO]: Initializing LWJGL OpenAL
+[14:44:13] [Thread-26/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:44:13] [Thread-26/INFO]: OpenAL initialized.
+[14:44:13] [Sound Library Loader/INFO]: Sound engine started
+[14:44:14] [Client thread/INFO]: Max texture size: 16384
+[14:44:14] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:44:14] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:44:18] [Server thread/INFO]: Saving and pausing game...
+[14:44:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:44:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:44:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:44:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:44:36] [Client thread/INFO]: SoundSystem shutting down...
+[14:44:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:44:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:44:37] [Thread-28/INFO]: Initializing LWJGL OpenAL
+[14:44:37] [Thread-28/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:44:37] [Thread-28/INFO]: OpenAL initialized.
+[14:44:37] [Sound Library Loader/INFO]: Sound engine started
+[14:44:37] [Client thread/INFO]: Max texture size: 16384
+[14:44:38] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:44:38] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:44:47] [Server thread/INFO]: Saving and pausing game...
+[14:44:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:44:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:44:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:45:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:45:29] [Client thread/INFO]: SoundSystem shutting down...
+[14:45:29] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:45:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:45:29] [Thread-30/INFO]: Initializing LWJGL OpenAL
+[14:45:29] [Thread-30/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:45:29] [Thread-30/INFO]: OpenAL initialized.
+[14:45:29] [Sound Library Loader/INFO]: Sound engine started
+[14:45:30] [Client thread/INFO]: Max texture size: 16384
+[14:45:30] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:45:30] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:45:37] [Server thread/INFO]: Saving and pausing game...
+[14:45:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:45:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:45:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:45:39] [Server thread/INFO]: Saving and pausing game...
+[14:45:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:45:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:45:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:48:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:48:01] [Client thread/INFO]: SoundSystem shutting down...
+[14:48:01] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:48:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:48:01] [Client thread/ERROR]: Could not load vanilla model parent 'caster:item/ItemBase' for 'net.minecraft.client.renderer.block.model.ModelBlock@ab11e31
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/ItemBase with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModelOrLogError(ModelLoaderRegistry.java:203) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.getTextures(ModelLoader.java:478) [ModelLoader$VanillaModelWrapper.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:163) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:752) [ModelLoader$WeightedRandomModel.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) [ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) [ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:229) [ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:146) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: java.io.FileNotFoundException: caster:models/item/ItemBase.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 37 more
+[14:48:01] [Client thread/ERROR]: Could not load vanilla model parent 'caster:item/ItemBase' for 'net.minecraft.client.renderer.block.model.ModelBlock@ab11e31
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/ItemBase with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModelOrLogError(ModelLoaderRegistry.java:203) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.getTextures(ModelLoader.java:478) [ModelLoader$VanillaModelWrapper.class:?]
+	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:762) [ModelLoader$WeightedRandomModel.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) [ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) [ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:229) [ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:146) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: java.io.FileNotFoundException: caster:models/item/ItemBase.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 36 more
+[14:48:02] [Thread-32/INFO]: Initializing LWJGL OpenAL
+[14:48:02] [Thread-32/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:48:02] [Thread-32/INFO]: OpenAL initialized.
+[14:48:02] [Sound Library Loader/INFO]: Sound engine started
+[14:48:03] [Client thread/INFO]: Max texture size: 16384
+[14:48:03] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:48:03] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:49:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:49:32] [Client thread/INFO]: SoundSystem shutting down...
+[14:49:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:49:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:49:33] [Client thread/ERROR]: Could not load vanilla model parent 'caster:item/ItemBase' for 'net.minecraft.client.renderer.block.model.ModelBlock@76620bed
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/ItemBase with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModelOrLogError(ModelLoaderRegistry.java:203) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.getTextures(ModelLoader.java:478) [ModelLoader$VanillaModelWrapper.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:163) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:752) [ModelLoader$WeightedRandomModel.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) [ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) [ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:229) [ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:146) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: java.io.FileNotFoundException: caster:models/item/ItemBase.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 37 more
+[14:49:33] [Client thread/ERROR]: Could not load vanilla model parent 'caster:item/ItemBase' for 'net.minecraft.client.renderer.block.model.ModelBlock@76620bed
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/ItemBase with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModelOrLogError(ModelLoaderRegistry.java:203) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.getTextures(ModelLoader.java:478) [ModelLoader$VanillaModelWrapper.class:?]
+	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:762) [ModelLoader$WeightedRandomModel.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) [ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) [ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) [ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:229) [ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:146) [ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: java.io.FileNotFoundException: caster:models/item/ItemBase.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 36 more
+[14:49:33] [Thread-34/INFO]: Initializing LWJGL OpenAL
+[14:49:33] [Thread-34/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:49:33] [Thread-34/INFO]: OpenAL initialized.
+[14:49:33] [Sound Library Loader/INFO]: Sound engine started
+[14:49:34] [Client thread/INFO]: Max texture size: 16384
+[14:49:34] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:49:34] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:50:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:50:45] [Client thread/INFO]: SoundSystem shutting down...
+[14:50:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:50:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:50:45] [Thread-36/INFO]: Initializing LWJGL OpenAL
+[14:50:45] [Thread-36/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:50:45] [Thread-36/INFO]: OpenAL initialized.
+[14:50:46] [Sound Library Loader/INFO]: Sound engine started
+[14:50:46] [Client thread/INFO]: Max texture size: 16384
+[14:50:46] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:50:47] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:51:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:51:21] [Client thread/INFO]: SoundSystem shutting down...
+[14:51:21] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:51:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:51:21] [Thread-38/INFO]: Initializing LWJGL OpenAL
+[14:51:21] [Thread-38/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:51:21] [Thread-38/INFO]: OpenAL initialized.
+[14:51:22] [Sound Library Loader/INFO]: Sound engine started
+[14:51:22] [Client thread/INFO]: Max texture size: 16384
+[14:51:22] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:51:23] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:51:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:51:44] [Client thread/INFO]: SoundSystem shutting down...
+[14:51:44] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:51:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:51:45] [Thread-40/INFO]: Initializing LWJGL OpenAL
+[14:51:45] [Thread-40/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:51:45] [Thread-40/INFO]: OpenAL initialized.
+[14:51:45] [Sound Library Loader/INFO]: Sound engine started
+[14:51:46] [Client thread/INFO]: Max texture size: 16384
+[14:51:46] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:51:46] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:52:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:52:51] [Client thread/INFO]: SoundSystem shutting down...
+[14:52:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:52:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:52:52] [Thread-42/INFO]: Initializing LWJGL OpenAL
+[14:52:52] [Thread-42/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:52:52] [Thread-42/INFO]: OpenAL initialized.
+[14:52:52] [Sound Library Loader/INFO]: Sound engine started
+[14:52:52] [Client thread/INFO]: Max texture size: 16384
+[14:52:53] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:52:53] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:53:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:53:45] [Client thread/INFO]: SoundSystem shutting down...
+[14:53:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:53:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:53:46] [Thread-44/INFO]: Initializing LWJGL OpenAL
+[14:53:46] [Thread-44/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:53:46] [Thread-44/INFO]: OpenAL initialized.
+[14:53:46] [Sound Library Loader/INFO]: Sound engine started
+[14:53:47] [Client thread/INFO]: Max texture size: 16384
+[14:53:47] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:53:47] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:54:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:54:11] [Client thread/INFO]: SoundSystem shutting down...
+[14:54:11] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:54:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:54:11] [Thread-46/INFO]: Initializing LWJGL OpenAL
+[14:54:11] [Thread-46/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:54:11] [Thread-46/INFO]: OpenAL initialized.
+[14:54:12] [Sound Library Loader/INFO]: Sound engine started
+[14:54:12] [Client thread/INFO]: Max texture size: 16384
+[14:54:12] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:54:13] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:54:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:54:31] [Client thread/INFO]: SoundSystem shutting down...
+[14:54:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:54:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:54:31] [Thread-48/INFO]: Initializing LWJGL OpenAL
+[14:54:31] [Thread-48/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:54:31] [Thread-48/INFO]: OpenAL initialized.
+[14:54:32] [Sound Library Loader/INFO]: Sound engine started
+[14:54:32] [Client thread/INFO]: Max texture size: 16384
+[14:54:32] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:54:33] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:54:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:54:47] [Client thread/INFO]: SoundSystem shutting down...
+[14:54:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:54:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:54:47] [Thread-50/INFO]: Initializing LWJGL OpenAL
+[14:54:47] [Thread-50/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:54:47] [Thread-50/INFO]: OpenAL initialized.
+[14:54:48] [Sound Library Loader/INFO]: Sound engine started
+[14:54:48] [Client thread/INFO]: Max texture size: 16384
+[14:54:48] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:54:49] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:55:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:55:08] [Client thread/INFO]: SoundSystem shutting down...
+[14:55:08] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:55:08] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:55:08] [Thread-52/INFO]: Initializing LWJGL OpenAL
+[14:55:08] [Thread-52/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:55:08] [Thread-52/INFO]: OpenAL initialized.
+[14:55:09] [Sound Library Loader/INFO]: Sound engine started
+[14:55:09] [Client thread/INFO]: Max texture size: 16384
+[14:55:09] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:55:09] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:55:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:55:26] [Client thread/INFO]: SoundSystem shutting down...
+[14:55:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:55:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:55:26] [Thread-54/INFO]: Initializing LWJGL OpenAL
+[14:55:26] [Thread-54/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:55:26] [Thread-54/INFO]: OpenAL initialized.
+[14:55:27] [Sound Library Loader/INFO]: Sound engine started
+[14:55:27] [Client thread/INFO]: Max texture size: 16384
+[14:55:27] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:55:28] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:55:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:55:41] [Client thread/INFO]: SoundSystem shutting down...
+[14:55:42] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:55:42] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:55:42] [Thread-56/INFO]: Initializing LWJGL OpenAL
+[14:55:42] [Thread-56/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:55:42] [Thread-56/INFO]: OpenAL initialized.
+[14:55:42] [Sound Library Loader/INFO]: Sound engine started
+[14:55:43] [Client thread/INFO]: Max texture size: 16384
+[14:55:43] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:55:43] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:55:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:55:55] [Client thread/INFO]: SoundSystem shutting down...
+[14:55:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:55:55] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:55:55] [Thread-58/INFO]: Initializing LWJGL OpenAL
+[14:55:55] [Thread-58/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:55:55] [Thread-58/INFO]: OpenAL initialized.
+[14:55:56] [Sound Library Loader/INFO]: Sound engine started
+[14:55:56] [Client thread/INFO]: Max texture size: 16384
+[14:55:56] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:55:57] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:56:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:56:06] [Client thread/INFO]: SoundSystem shutting down...
+[14:56:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:56:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:56:07] [Thread-60/INFO]: Initializing LWJGL OpenAL
+[14:56:07] [Thread-60/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:56:07] [Thread-60/INFO]: OpenAL initialized.
+[14:56:07] [Sound Library Loader/INFO]: Sound engine started
+[14:56:08] [Client thread/INFO]: Max texture size: 16384
+[14:56:08] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:56:08] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:56:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:56:43] [Client thread/INFO]: SoundSystem shutting down...
+[14:56:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:56:43] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:56:43] [Thread-62/INFO]: Initializing LWJGL OpenAL
+[14:56:43] [Thread-62/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:56:43] [Thread-62/INFO]: OpenAL initialized.
+[14:56:44] [Sound Library Loader/INFO]: Sound engine started
+[14:56:44] [Client thread/INFO]: Max texture size: 16384
+[14:56:44] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:56:45] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:56:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:57:00] [Client thread/INFO]: SoundSystem shutting down...
+[14:57:00] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:57:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:57:00] [Thread-64/INFO]: Initializing LWJGL OpenAL
+[14:57:00] [Thread-64/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:57:00] [Thread-64/INFO]: OpenAL initialized.
+[14:57:00] [Sound Library Loader/INFO]: Sound engine started
+[14:57:01] [Client thread/INFO]: Max texture size: 16384
+[14:57:01] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:57:01] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:57:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:57:19] [Client thread/INFO]: SoundSystem shutting down...
+[14:57:20] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:57:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:57:20] [Thread-66/INFO]: Initializing LWJGL OpenAL
+[14:57:20] [Thread-66/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:57:20] [Thread-66/INFO]: OpenAL initialized.
+[14:57:20] [Sound Library Loader/INFO]: Sound engine started
+[14:57:21] [Client thread/INFO]: Max texture size: 16384
+[14:57:21] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:57:21] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:57:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:57:50] [Client thread/INFO]: SoundSystem shutting down...
+[14:57:50] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:57:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:57:50] [Thread-68/INFO]: Initializing LWJGL OpenAL
+[14:57:50] [Thread-68/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:57:50] [Thread-68/INFO]: OpenAL initialized.
+[14:57:51] [Sound Library Loader/INFO]: Sound engine started
+[14:57:51] [Client thread/INFO]: Max texture size: 16384
+[14:57:51] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:57:52] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:58:02] [Server thread/INFO]: [Player237: Set the time to 0]
+[14:58:02] [Client thread/INFO]: [CHAT] Set the time to 0
+[14:58:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:58:20] [Client thread/INFO]: SoundSystem shutting down...
+[14:58:21] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:58:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:58:21] [Thread-70/INFO]: Initializing LWJGL OpenAL
+[14:58:21] [Thread-70/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:58:21] [Thread-70/INFO]: OpenAL initialized.
+[14:58:21] [Sound Library Loader/INFO]: Sound engine started
+[14:58:22] [Client thread/INFO]: Max texture size: 16384
+[14:58:22] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:58:22] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:58:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:58:41] [Client thread/INFO]: SoundSystem shutting down...
+[14:58:41] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:58:41] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:58:41] [Thread-72/INFO]: Initializing LWJGL OpenAL
+[14:58:41] [Thread-72/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:58:41] [Thread-72/INFO]: OpenAL initialized.
+[14:58:42] [Sound Library Loader/INFO]: Sound engine started
+[14:58:42] [Client thread/INFO]: Max texture size: 16384
+[14:58:42] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:58:43] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:59:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:59:08] [Client thread/INFO]: SoundSystem shutting down...
+[14:59:08] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:59:08] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:59:08] [Thread-74/INFO]: Initializing LWJGL OpenAL
+[14:59:08] [Thread-74/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:59:08] [Thread-74/INFO]: OpenAL initialized.
+[14:59:09] [Sound Library Loader/INFO]: Sound engine started
+[14:59:09] [Client thread/INFO]: Max texture size: 16384
+[14:59:09] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:59:10] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:59:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:59:21] [Client thread/INFO]: SoundSystem shutting down...
+[14:59:21] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:59:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:59:21] [Thread-76/INFO]: Initializing LWJGL OpenAL
+[14:59:21] [Thread-76/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:59:21] [Thread-76/INFO]: OpenAL initialized.
+[14:59:22] [Sound Library Loader/INFO]: Sound engine started
+[14:59:22] [Client thread/INFO]: Max texture size: 16384
+[14:59:22] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:59:23] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:59:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:59:39] [Client thread/INFO]: SoundSystem shutting down...
+[14:59:39] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:59:39] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:59:39] [Thread-78/INFO]: Initializing LWJGL OpenAL
+[14:59:39] [Thread-78/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:59:39] [Thread-78/INFO]: OpenAL initialized.
+[14:59:39] [Sound Library Loader/INFO]: Sound engine started
+[14:59:40] [Client thread/INFO]: Max texture size: 16384
+[14:59:40] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:59:40] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[14:59:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[14:59:52] [Client thread/INFO]: SoundSystem shutting down...
+[14:59:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:59:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:59:52] [Thread-80/INFO]: Initializing LWJGL OpenAL
+[14:59:52] [Thread-80/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:59:52] [Thread-80/INFO]: OpenAL initialized.
+[14:59:53] [Sound Library Loader/INFO]: Sound engine started
+[14:59:53] [Client thread/INFO]: Max texture size: 16384
+[14:59:53] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:59:54] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:00:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:00:06] [Client thread/INFO]: SoundSystem shutting down...
+[15:00:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:00:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:00:06] [Thread-82/INFO]: Initializing LWJGL OpenAL
+[15:00:06] [Thread-82/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:00:06] [Thread-82/INFO]: OpenAL initialized.
+[15:00:07] [Sound Library Loader/INFO]: Sound engine started
+[15:00:07] [Client thread/INFO]: Max texture size: 16384
+[15:00:07] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:00:08] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:00:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:00:20] [Client thread/INFO]: SoundSystem shutting down...
+[15:00:20] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:00:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:00:20] [Thread-84/INFO]: Initializing LWJGL OpenAL
+[15:00:20] [Thread-84/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:00:20] [Thread-84/INFO]: OpenAL initialized.
+[15:00:21] [Sound Library Loader/INFO]: Sound engine started
+[15:00:21] [Client thread/INFO]: Max texture size: 16384
+[15:00:21] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:00:22] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:00:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:00:37] [Client thread/INFO]: SoundSystem shutting down...
+[15:00:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:00:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:00:38] [Thread-86/INFO]: Initializing LWJGL OpenAL
+[15:00:38] [Thread-86/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:00:38] [Thread-86/INFO]: OpenAL initialized.
+[15:00:38] [Sound Library Loader/INFO]: Sound engine started
+[15:00:39] [Client thread/INFO]: Max texture size: 16384
+[15:00:39] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:00:39] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:00:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:00:47] [Client thread/INFO]: SoundSystem shutting down...
+[15:00:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:00:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:00:48] [Thread-88/INFO]: Initializing LWJGL OpenAL
+[15:00:48] [Thread-88/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:00:48] [Thread-88/INFO]: OpenAL initialized.
+[15:00:48] [Sound Library Loader/INFO]: Sound engine started
+[15:00:49] [Client thread/INFO]: Max texture size: 16384
+[15:00:49] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:00:49] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:01:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:01:06] [Client thread/INFO]: SoundSystem shutting down...
+[15:01:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:01:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:01:06] [Thread-90/INFO]: Initializing LWJGL OpenAL
+[15:01:06] [Thread-90/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:01:06] [Thread-90/INFO]: OpenAL initialized.
+[15:01:07] [Sound Library Loader/INFO]: Sound engine started
+[15:01:07] [Client thread/INFO]: Max texture size: 16384
+[15:01:07] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:01:08] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:01:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:01:22] [Client thread/INFO]: SoundSystem shutting down...
+[15:01:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:01:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:01:23] [Thread-92/INFO]: Initializing LWJGL OpenAL
+[15:01:23] [Thread-92/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:01:23] [Thread-92/INFO]: OpenAL initialized.
+[15:01:23] [Sound Library Loader/INFO]: Sound engine started
+[15:01:23] [Client thread/INFO]: Max texture size: 16384
+[15:01:24] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:01:24] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:01:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:01:40] [Client thread/INFO]: SoundSystem shutting down...
+[15:01:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:01:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:01:40] [Thread-94/INFO]: Initializing LWJGL OpenAL
+[15:01:40] [Thread-94/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:01:40] [Thread-94/INFO]: OpenAL initialized.
+[15:01:40] [Sound Library Loader/INFO]: Sound engine started
+[15:01:41] [Client thread/INFO]: Max texture size: 16384
+[15:01:41] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:01:41] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:01:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:01:51] [Client thread/INFO]: SoundSystem shutting down...
+[15:01:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:01:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:01:52] [Thread-96/INFO]: Initializing LWJGL OpenAL
+[15:01:52] [Thread-96/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:01:52] [Thread-96/INFO]: OpenAL initialized.
+[15:01:52] [Sound Library Loader/INFO]: Sound engine started
+[15:01:53] [Client thread/INFO]: Max texture size: 16384
+[15:01:53] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:01:53] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:02:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:02:02] [Client thread/INFO]: SoundSystem shutting down...
+[15:02:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:02:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:02:02] [Thread-98/INFO]: Initializing LWJGL OpenAL
+[15:02:02] [Thread-98/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:02:02] [Thread-98/INFO]: OpenAL initialized.
+[15:02:03] [Sound Library Loader/INFO]: Sound engine started
+[15:02:03] [Client thread/INFO]: Max texture size: 16384
+[15:02:03] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:02:04] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:04:56] [Client thread/INFO]: [CHAT] Saved screenshot as 2016-07-15_15.04.56.png
+[15:05:00] [Server thread/INFO]: Saving and pausing game...
+[15:05:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:05:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:05:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:06:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:06:55] [Client thread/INFO]: SoundSystem shutting down...
+[15:06:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:06:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:06:56] [Thread-100/INFO]: Initializing LWJGL OpenAL
+[15:06:56] [Thread-100/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:06:56] [Thread-100/INFO]: OpenAL initialized.
+[15:06:56] [Sound Library Loader/INFO]: Sound engine started
+[15:06:57] [Client thread/INFO]: Max texture size: 16384
+[15:06:57] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:06:57] [Client thread/ERROR]: Exception loading model for variant caster:elementalsword#inventory for item "caster:elementalsword", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/elementalsword with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:170) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: com.google.gson.JsonSyntaxException: java.io.EOFException: End of input at line 12 column 2
+	at com.google.gson.internal.Streams.parse(Streams.java:54) ~[Streams.class:?]
+	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:54) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:453) ~[JsonUtils.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBlock.deserialize(ModelBlock.java:51) ~[ModelBlock.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:315) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 30 more
+Caused by: java.io.EOFException: End of input at line 12 column 2
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1377) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:471) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:403) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$25.read(TypeAdapters.java:666) ~[TypeAdapters$25.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$25.read(TypeAdapters.java:642) ~[TypeAdapters$25.class:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:44) ~[Streams.class:?]
+	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:54) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:453) ~[JsonUtils.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBlock.deserialize(ModelBlock.java:51) ~[ModelBlock.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:315) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 30 more
+[15:06:57] [Client thread/ERROR]: Exception loading model for variant caster:elementalsword#inventory for item "caster:elementalsword", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:elementalsword#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:170) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:78) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1183) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 30 more
+[15:06:57] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:08:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:08:01] [Client thread/INFO]: SoundSystem shutting down...
+[15:08:01] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:08:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:08:01] [Thread-102/INFO]: Initializing LWJGL OpenAL
+[15:08:01] [Thread-102/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:08:01] [Thread-102/INFO]: OpenAL initialized.
+[15:08:02] [Sound Library Loader/INFO]: Sound engine started
+[15:08:02] [Client thread/INFO]: Max texture size: 16384
+[15:08:02] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:08:03] [Client thread/ERROR]: Exception loading model for variant caster:elementalsword#inventory for item "caster:elementalsword", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/elementalsword with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:170) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: com.google.gson.JsonSyntaxException: java.io.EOFException: End of input at line 22 column 2
+	at com.google.gson.internal.Streams.parse(Streams.java:54) ~[Streams.class:?]
+	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:54) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:453) ~[JsonUtils.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBlock.deserialize(ModelBlock.java:51) ~[ModelBlock.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:315) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 30 more
+Caused by: java.io.EOFException: End of input at line 22 column 2
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1377) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:471) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:403) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$25.read(TypeAdapters.java:666) ~[TypeAdapters$25.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$25.read(TypeAdapters.java:642) ~[TypeAdapters$25.class:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:44) ~[Streams.class:?]
+	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:54) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:453) ~[JsonUtils.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBlock.deserialize(ModelBlock.java:51) ~[ModelBlock.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:315) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 30 more
+[15:08:03] [Client thread/ERROR]: Exception loading model for variant caster:elementalsword#inventory for item "caster:elementalsword", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:elementalsword#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:170) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:132) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:113) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:799) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyF3(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2002) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1846) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1118) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:78) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1183) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 30 more
+[15:08:03] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:08:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:08:19] [Client thread/INFO]: SoundSystem shutting down...
+[15:08:19] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:08:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:08:19] [Thread-104/INFO]: Initializing LWJGL OpenAL
+[15:08:19] [Thread-104/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:08:19] [Thread-104/INFO]: OpenAL initialized.
+[15:08:19] [Sound Library Loader/INFO]: Sound engine started
+[15:08:20] [Client thread/INFO]: Max texture size: 16384
+[15:08:20] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:08:20] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:08:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:08:50] [Client thread/INFO]: SoundSystem shutting down...
+[15:08:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:08:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:08:51] [Thread-106/INFO]: Initializing LWJGL OpenAL
+[15:08:51] [Thread-106/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:08:51] [Thread-106/INFO]: OpenAL initialized.
+[15:08:51] [Sound Library Loader/INFO]: Sound engine started
+[15:08:52] [Client thread/INFO]: Max texture size: 16384
+[15:08:52] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:08:52] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:09:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:09:22] [Client thread/INFO]: SoundSystem shutting down...
+[15:09:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:09:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:09:22] [Thread-108/INFO]: Initializing LWJGL OpenAL
+[15:09:22] [Thread-108/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:09:22] [Thread-108/INFO]: OpenAL initialized.
+[15:09:22] [Sound Library Loader/INFO]: Sound engine started
+[15:09:23] [Client thread/INFO]: Max texture size: 16384
+[15:09:23] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:09:23] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:09:33] [Server thread/INFO]: [Player237: Set the time to 0]
+[15:09:33] [Client thread/INFO]: [CHAT] Set the time to 0
+[15:10:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:10:09] [Client thread/INFO]: SoundSystem shutting down...
+[15:10:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:10:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:10:10] [Thread-110/INFO]: Initializing LWJGL OpenAL
+[15:10:10] [Thread-110/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:10:10] [Thread-110/INFO]: OpenAL initialized.
+[15:10:10] [Sound Library Loader/INFO]: Sound engine started
+[15:10:11] [Client thread/INFO]: Max texture size: 16384
+[15:10:11] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:10:11] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:10:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:10:22] [Client thread/INFO]: SoundSystem shutting down...
+[15:10:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:10:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:10:23] [Thread-112/INFO]: Initializing LWJGL OpenAL
+[15:10:23] [Thread-112/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:10:23] [Thread-112/INFO]: OpenAL initialized.
+[15:10:23] [Sound Library Loader/INFO]: Sound engine started
+[15:10:24] [Client thread/INFO]: Max texture size: 16384
+[15:10:24] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:10:24] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:10:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[15:10:32] [Client thread/INFO]: SoundSystem shutting down...
+[15:10:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:10:32] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:10:32] [Thread-114/INFO]: Initializing LWJGL OpenAL
+[15:10:32] [Thread-114/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:10:32] [Thread-114/INFO]: OpenAL initialized.
+[15:10:33] [Sound Library Loader/INFO]: Sound engine started
+[15:10:33] [Client thread/INFO]: Max texture size: 16384
+[15:10:33] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:10:34] [Client thread/INFO]: [CHAT] [Debug]: Reloaded resourcepacks
+[15:21:43] [Server thread/INFO]: Saving and pausing game...
+[15:21:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:21:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:21:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:21:43] [Server thread/INFO]: Stopping server
+[15:21:43] [Server thread/INFO]: Saving players
+[15:21:43] [Server thread/INFO]: Saving worlds
+[15:21:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:21:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:21:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:21:43] [Server thread/INFO]: Unloading dimension 0
+[15:21:43] [Server thread/INFO]: Unloading dimension -1
+[15:21:43] [Server thread/INFO]: Unloading dimension 1
+[15:21:44] [Server thread/INFO]: Applying holder lookups
+[15:21:44] [Server thread/INFO]: Holder lookups applied
+[15:21:45] [Client thread/INFO]: Stopping!
+[15:21:45] [Client thread/INFO]: SoundSystem shutting down...
+[15:21:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

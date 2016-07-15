@@ -1,3 +1,6 @@
 {
-  "parents": "caster:block/workbench"
+  "parent": "minecraft:block/block",
+  "textures": {
+    "all": "caster:blocks/sorcererstoneore"
+  }
 }

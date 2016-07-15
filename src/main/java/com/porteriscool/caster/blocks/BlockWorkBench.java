@@ -17,11 +17,11 @@ import java.util.List;
 
 public class BlockWorkBench extends Block
 {
-    private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0, 0, 0, 0.0625 * 32, 0.0625 * 16, 0.0625 * 16);
+    private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0, 0, 0, 0.0625 * 16, 0.0625 * 16, 0.0625 * 16);
 
     public BlockWorkBench()
     {
-        super(Material.WOOD);
+        super(Material.ROCK);
         setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".workbench");
         setHardness(1.0F);
         setCreativeTab(CreativeTabCaster.instance);
@@ -40,7 +40,7 @@ public class BlockWorkBench extends Block
 
     @Override
     public BlockRenderLayer getBlockLayer() {
-        return BlockRenderLayer.TRANSLUCENT;
+        return BlockRenderLayer.SOLID;
     }
 
     @Override

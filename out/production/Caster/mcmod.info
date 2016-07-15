@@ -1,6 +1,6 @@
 [
 {
-  "modid": "caster",
+  "modid": "Caster",
   "name": "Caster",
   "description": "",
   "version": "1.10.2-0.0.1",
@@ -16,7 +16,7 @@
   [
 
   ],
-  "parent":"",
+  "parent": "",
   "dependencies":
   [
 
