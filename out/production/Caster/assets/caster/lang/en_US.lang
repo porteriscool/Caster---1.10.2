@@ -8,18 +8,57 @@ item.caster.twig.name=Twig
 item.caster.leaf.name=Leaf
 item.caster.leafcrystal.name=Leaf Crystal
 item.caster.firecrystal.name=Fire Crystal
+item.caster.aircrystal.name=Air Crystal
+item.caster.watercrystal.name=Water Crystal
+item.caster.sorcererstone.name=Sorcerer's Stone
+item.caster.leafstew.name=Leaf Stew
+item.caster.elixircrystal.name=Elixir Crystal
+item.caster.elementalgemstone.name=Elemental Gemstone
 
 //Tools
 item.caster.elementalpickaxe.name=Elemental Pickaxe
+item.caster.leafpickaxe.name=Leaf Pickaxe
+item.caster.firepickaxe.name=Fire Pickaxe
+item.caster.waterpickaxe.name=Water Pickaxe
+item.caster.airpickaxe.name=Air Pickaxe
 item.caster.elementalsword.name=Elemental Sword
+item.caster.leafsword.name=Elemental Sword
+item.caster.firesword.name=Elemental Sword
+item.caster.watersword.name=Elemental Sword
+item.caster.airsword.name=Elemental Sword
 item.caster.elementalshovel.name=Elemental Shovel
+item.caster.leafshovel.name=Elemental Shovel
+item.caster.fireshovel.name=Elemental Shovel
+item.caster.watershovel.name=Elemental Shovel
+item.caster.airshovel.name=Elemental Shovel
 item.caster.elementalaxe.name=Elemental Axe
+item.caster.leafaxe.name=Leaf Axe
+item.caster.fireaxe.name=Fire Axe
+item.caster.wateraxe.name=Water Axe
+item.caster.airaxe.name=Air Axe
+item.caster.elementalhoe.name=Elemental Hoe
+item.caster.leafhoe.name=Leaf Hoe
+item.caster.firehoe.name=Fire Hoe
+item.caster.waterhoe.name=Water Hoe
+item.caster.airhoe.name=Air Hoe
 item.caster.elementalsickle.name=Elemental Sickle
-item.caster.sorcererswand.name=Sorcerer's Wand
+item.caster.leafsickle.name=Leaf Sickle
+item.caster.firesickle.name=Fire Sickle
+item.caster.watersickle.name=Water Sickle
+item.caster.airsickle.name=Air Sickle
 item.caster.ironsickle.name=Iron Sickle
+item.caster.sorcererswand.name=Sorcerer's Wand
 
 //Armor
+item.caster.elementalboots.name=Elemental Boots
+item.caster.elementalleggings.name=Elemental Leggings
+item.caster.elementalchestplate.name=Elemental Chestplate
+item.caster.elementalhelmet.name=Elemental Helmet
 
 //Block
 tile.caster.sorcererstoneore.name=Sorcerer's Stone Ore
 tile.caster.workbench.name=Casting Workbench
+tile.caster.castingpurifier.name=Casting Purifier
+tile.caster.castingaltar.name=Casting Altar
+tile.caster.elixircrystalore.name=Elixir Crystal Ore
+tile.caster.elementalinfuser.name=Elemental Infuser

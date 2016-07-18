@@ -21,7 +21,7 @@ public class BlockWorkBench extends Block
 
     public BlockWorkBench()
     {
-        super(Material.ROCK);
+        super(Material.GROUND);
         setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".workbench");
         setHardness(1.0F);
         setCreativeTab(CreativeTabCaster.instance);
@@ -39,8 +39,13 @@ public class BlockWorkBench extends Block
     }
 
     @Override
-    public BlockRenderLayer getBlockLayer() {
-        return BlockRenderLayer.SOLID;
+    public boolean canRenderInLayer(BlockRenderLayer layer)
+    {
+        if (layer == BlockRenderLayer.CUTOUT)
+        {
+            return true;
+        }
+        return false;
     }
 
     @Override

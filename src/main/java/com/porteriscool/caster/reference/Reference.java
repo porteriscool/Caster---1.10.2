@@ -9,4 +9,5 @@ public class Reference
     public static final String CLIENT_PROXY_CLASS = "com.porteriscool.caster.proxy.ClientProxy";
     public static final String SERVER_PROXY_CLASS = "com.porteriscool.caster.proxy.CommonProxy";
     public static final String GUI_FACTORY_CLASS = "com.porteriscool.caster.client.gui.GuiFactory";
+    public static final String PREFIX_MOD = MOD_ID.toLowerCase() + ":";
 }
