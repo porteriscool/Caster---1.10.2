@@ -2,275 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa6f510d-394b-4979-838c-d5458609e501" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/airaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/airhoe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/airpickaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/airshovel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/airsword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/fireaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/firehoe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/firepickaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/fireshovel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/firesword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafhoe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafpickaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafshovel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafsword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/wateraxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/waterhoe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/waterpickaxe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/watershovel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/watersword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockCastingAltar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockCastingPurifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockElementalInfuser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockElixirCrystalOre.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalBoots.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalChestplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalHelmet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalLeggings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemAirCrystal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemElementalGemstone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemElixirCrystal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemSorcererStone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemWaterCrystal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirAxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirHoe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirPickaxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirShovel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirSickle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirSword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalHoe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireAxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireHoe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFirePickaxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireShovel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireSickle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireSword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafAxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafHoe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafPickaxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafShovel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafSickle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafSword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterAxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterHoe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterPickaxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterShovel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterSickle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterSword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ConfigHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/blockstates/castingaltar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/blockstates/castingpurifier.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/blockstates/elementalinfuser.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/blockstates/elixircrystalore.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/castingaltar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/castingpurifier.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/elementalinfuser.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/elixircrystalore.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/airaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/aircrystal.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/airhoe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/airpickaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/airshovel.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/airsickle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/airsword.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/castingaltar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/castingpurifier.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalboots.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalchestplate.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalgemstone.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalhelmet.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalinfuser.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elementalleggings.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elixircrystal.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/elixircrystalore.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/fireaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/firehoe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/firepickaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/fireshovel.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/firesickle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/firesword.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafhoe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafpickaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafshovel.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafsickle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafstew.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafsword.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererstone.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/wateraxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watercrystal.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/waterhoe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/waterpickaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watershovel.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watersickle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watersword.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/blocks/sorcererstoneore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/bottleofelixir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/elementalaxe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/elementalpickaxe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/elementalshovel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/elementalsword.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/emptybottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/guidebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/ironsickle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/leaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/twig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/0ecc5f64-1f20-34a1-a889-f88d84dd36f3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/19f51a77-b6fb-3469-a8b6-228ec5ce5961.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/1c0e06f3-9808-3189-8407-cec21f7f6640.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/221c55bf-67e1-303c-b4e6-e7a280e2f738.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/25887e3a-1ce2-3acf-9352-3d844017a709.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/2854591c-b60f-3cde-b807-30391bb3ef3d.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/337a131b-860d-346e-a281-649e07daeae5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/37815b4b-a277-3e88-89c9-687629f7c447.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/3da1e349-17b0-38ed-a07b-1e78c8ebd956.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/3e3cdda1-3fb1-331c-b583-7387437040de.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/3e59bd01-5286-3f1f-b563-8ee24767718b.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/55199b58-d04f-3d22-9ce2-5472509a024b.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/5606c356-f83a-3346-9cfd-7a4fa8e27776.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/5a8b675a-352f-385b-94f4-369e3f70aa83.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/5db36629-721d-3a36-8728-14b3ab112351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6130f4bb-8300-3783-bbd4-302f5fef0fc2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/681f539b-8bb8-3f85-85e5-a2945f6c6539.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6ac51f60-8a46-3363-88e0-2d4d5f8e5646.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6b411cc5-cb23-3aef-b8b1-6cb73d96a2d5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/79588fdd-6216-324d-ac44-68b387fcfb5c.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/7ef37f89-ec95-314c-ad83-8a71ac6e461c.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/83f835f2-20fa-325d-8039-400fcc96db8c.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a000e289-fff2-30ee-8de9-0ce5e6f063aa.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a87d2476-ff88-3799-a681-9605d7180f4f.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/ad3b9163-3242-34ef-8b76-b0fcecc34cf8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/b31fadf2-d5d5-36b6-a9c6-26ad19735f31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/baf6de3a-5bd7-32fc-ab9f-e6b63b25393f.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/bbd99455-8401-3d8f-8354-38be4a4ffba2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/c6ee12ed-7678-319d-87c9-a5de81832a4f.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/def15adf-07af-3672-a35b-fe69f139863f.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e2b9cbcf-86ca-37af-a4ef-9732161cb042.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e2f2d8ad-63d3-3d66-8818-3aa1e92fae1a.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e6f6e71e-f1b8-32cb-a47d-066aff706ad2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e8e93d28-80c3-338d-b964-977ebd1f012f.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/fb99d07b-9b6d-3e33-b8da-b8b7c2f42608.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/0ecc5f64-1f20-34a1-a889-f88d84dd36f3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/19f51a77-b6fb-3469-a8b6-228ec5ce5961.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/1c0e06f3-9808-3189-8407-cec21f7f6640.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/221c55bf-67e1-303c-b4e6-e7a280e2f738.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/25887e3a-1ce2-3acf-9352-3d844017a709.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/2854591c-b60f-3cde-b807-30391bb3ef3d.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/337a131b-860d-346e-a281-649e07daeae5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/37815b4b-a277-3e88-89c9-687629f7c447.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/3da1e349-17b0-38ed-a07b-1e78c8ebd956.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/3e3cdda1-3fb1-331c-b583-7387437040de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/3e59bd01-5286-3f1f-b563-8ee24767718b.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/55199b58-d04f-3d22-9ce2-5472509a024b.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/5606c356-f83a-3346-9cfd-7a4fa8e27776.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/5a8b675a-352f-385b-94f4-369e3f70aa83.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/5db36629-721d-3a36-8728-14b3ab112351.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6130f4bb-8300-3783-bbd4-302f5fef0fc2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/681f539b-8bb8-3f85-85e5-a2945f6c6539.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6ac51f60-8a46-3363-88e0-2d4d5f8e5646.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6b411cc5-cb23-3aef-b8b1-6cb73d96a2d5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/79588fdd-6216-324d-ac44-68b387fcfb5c.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/7ef37f89-ec95-314c-ad83-8a71ac6e461c.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/83f835f2-20fa-325d-8039-400fcc96db8c.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/a000e289-fff2-30ee-8de9-0ce5e6f063aa.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/a87d2476-ff88-3799-a681-9605d7180f4f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/ad3b9163-3242-34ef-8b76-b0fcecc34cf8.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/b31fadf2-d5d5-36b6-a9c6-26ad19735f31.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/baf6de3a-5bd7-32fc-ab9f-e6b63b25393f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/bbd99455-8401-3d8f-8354-38be4a4ffba2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/c6ee12ed-7678-319d-87c9-a5de81832a4f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/def15adf-07af-3672-a35b-fe69f139863f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e2b9cbcf-86ca-37af-a4ef-9732161cb042.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e2f2d8ad-63d3-3d66-8818-3aa1e92fae1a.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e6f6e71e-f1b8-32cb-a47d-066aff706ad2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e8e93d28-80c3-338d-b964-977ebd1f012f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/fb99d07b-9b6d-3e33-b8da-b8b7c2f42608.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/blocks/sorcererstoneore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/bottleofelixir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/elementalaxe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/elementalpickaxe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/elementalshovel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/elementalsword.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/emptybottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/guidebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/ironsickle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/twig.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/aircrystal.png" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/aircrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/firecrystal.png" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/firecrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/leafcrystal.png" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/leafcrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/watercrystal.png" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/textures/items/watercrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/Caster.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/Caster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/blocks/BlockWorkBench.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/blocks/BlockWorkBench.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModBlocks.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModBlocks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModItems.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModItems.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModelHandler.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/init/ModelHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalAxe.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalAxe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalPickaxe.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalPickaxe.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/OreGeneration.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ConfigHelper.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/handler/ConfigurationHandler.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/handler/ConfigurationHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/misc/ItemLeafStew.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/misc/ItemLeafStew.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemAirShovel.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemAirShovel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalShovel.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalShovel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalSickle.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalSickle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalSword.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemElementalSword.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemIronSickle.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemIronSickle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/ClientProxy.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/proxy/ClientProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-15-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-15-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-15-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-15-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-15-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-15-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-15-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-15-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-15-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-15-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-15-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-15-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemFireShovel.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemFireShovel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemLeafShovel.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemLeafShovel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemWaterShovel.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/items/tools/ItemWaterShovel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/reference/Reference.class" afterPath="$PROJECT_DIR$/out/production/Caster/com/porteriscool/caster/reference/Reference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2016-07-17-7.log.gz" afterPath="$PROJECT_DIR$/run/logs/2016-07-17-7.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/icon.png" afterPath="$PROJECT_DIR$/run/saves/New World/icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/0393a2c7-cdb8-34be-bc16-491de4797b8e.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/0393a2c7-cdb8-34be-bc16-491de4797b8e.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.3.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.3.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.3.1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.3.1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.4.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.4.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.4.1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.4.1.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/aircrystal.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/aircrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/firecrystal.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/firecrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafcrystal.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/leafcrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/watercrystal.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/textures/items/watercrystal.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Caster.iws" afterPath="$PROJECT_DIR$/Caster.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/block/workbench.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/block/workbench.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/sorcererstoneore.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/sorcererstoneore.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/workbench.json" afterPath="$PROJECT_DIR$/out/production/Caster/assets/caster/models/item/workbench.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Caster/mcmod.info" afterPath="$PROJECT_DIR$/out/production/Caster/mcmod.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/caster.cfg" afterPath="$PROJECT_DIR$/run/config/caster.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/options.txt" afterPath="$PROJECT_DIR$/run/options.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/0393a2c7-cdb8-34be-bc16-491de4797b8e.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/0393a2c7-cdb8-34be-bc16-491de4797b8e.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usercache.json" afterPath="$PROJECT_DIR$/run/usercache.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockWorkBench.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/blocks/BlockWorkBench.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/handler/ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/handler/ConfigurationHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalAxe.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalShovel.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSickle.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSickle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSword.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemIronSickle.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemIronSickle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/reference/Reference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/Workbench.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/block/Workbench.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererstoneore.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/sorcererstoneore.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/workbench.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/workbench.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalBoots.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalBoots.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalChestplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalChestplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalHelmet.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalHelmet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalLeggings.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalLeggings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java" afterPath="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java" />
     </list>
     <ignored path="Caster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -349,18 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafshovel.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafsickle.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/leafsword.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/wateraxe.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/waterhoe.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/waterpickaxe.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watershovel.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watersickle.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/caster/models/item/watersword.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/handler/MaterialHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/handler/ToolMaterial.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafAxe.java" />
@@ -386,13 +147,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemIronSickle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/world/OreGeneration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/Module.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ConfigHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ModuleLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/Feature.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterShovel.java" />
@@ -400,6 +158,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireShovel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalShovel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirShovel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ArmorBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/MolderHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ModelArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ModelElementalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ModelArmorHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ConfigHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalBoots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalChestplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalHelmet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalLeggings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/handler/ConfigurationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/OreGeneration.java" />
       </list>
     </option>
   </component>
@@ -509,135 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.porteriscool.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.porteriscool.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.porteriscool.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets.caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -656,20 +301,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets.caster" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1079,118 +710,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="31" selection-start-line="8" selection-start-column="24" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFirePickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterSickle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafSickle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemFireSickle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemElementalSickle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemAirSickle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="30" selection-start-line="12" selection-start-column="27" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemWaterSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/tools/ItemLeafSword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1223,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="124" selection-start-line="23" selection-start-column="124" selection-end-line="23" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.0.2007-1.10.0/snapshot/20160518/forgeSrc-1.10.2-12.18.0.2007-1.10.0-sources.jar!/net/minecraft/item/ItemFood.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
@@ -1245,14 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18630">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1273,26 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ModuleLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ConfigHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1317,14 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/LogHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1482,6 +959,170 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1221">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ArmorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ModelArmorHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ModelHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/model/ModelElementalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/ConfigHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalLeggings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalHelmet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalBoots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/armor/ItemElementalChestplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/items/misc/ItemLeafStew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/caster/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/LogHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/Caster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/utility/OreGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porteriscool/caster/handler/ConfigurationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="42" column="143" selection-start-line="42" selection-start-column="143" selection-end-line="42" selection-end-column="143" />
           <folding />
         </state>
       </provider>

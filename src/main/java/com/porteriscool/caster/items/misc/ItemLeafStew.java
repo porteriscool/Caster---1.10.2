@@ -11,8 +11,8 @@ public class ItemLeafStew extends ItemSoup
     public ItemLeafStew()
     {
         super(5);
-        setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".ironsickle");
-        setRegistryName("ironsickle");
+        setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".leafstew");
+        setRegistryName("leafstew");
         setMaxStackSize(1);
         setCreativeTab(CreativeTabCaster.instance);
     }

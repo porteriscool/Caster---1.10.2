@@ -10,7 +10,11 @@ import java.io.File;
 public class ConfigurationHandler
     {
         public static Configuration configuration;
+
         public static boolean testValue = false;
+        public static boolean enableaGeneration;
+
+        public static String generation = "Generation";
 
         public static void init(File configFile)
         {
@@ -32,7 +36,11 @@ public class ConfigurationHandler
 
         private static void loadConfiguration()
         {
-            testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+            testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value.");
+
+            configuration.addCustomCategoryComment(generation, "This section adds and contains settings to ore generation.");
+
+            enableaGeneration = configuration.get(generation, "enableGeneration", true, "Enable Ore Generation").getBoolean(enableaGeneration);
 
             if (configuration.hasChanged())
             {
