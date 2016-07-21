@@ -1,88 +1,88 @@
-[12:20:47] [main/INFO]: Extra: []
-[12:20:47] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/MattPorter/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[12:20:47] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:20:47] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:20:47] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[12:20:47] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:20:47] [main/INFO]: Forge Mod Loader version 12.18.0.2007 for Minecraft 1.10.2 loading
-[12:20:47] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_74, running on Mac OS X:x86_64:10.11.3, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre
-[12:20:47] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[12:20:47] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[12:20:47] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[12:20:47] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[12:20:47] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:20:47] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[12:20:47] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[12:20:47] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:20:47] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:20:47] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:20:47] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[12:20:48] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[12:20:48] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:20:48] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[12:20:49] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[12:20:49] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[12:20:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[12:20:49] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[12:20:50] [Client thread/INFO]: Setting user: Player355
-[12:20:53] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:20:53] [Client thread/INFO]: LWJGL Version: 2.9.2
-[12:20:53] [Client thread/INFO]: MinecraftForge v12.18.0.2007 Initialized
-[12:20:53] [Client thread/INFO]: Replaced 233 ore recipes
-[12:20:53] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[12:20:53] [Client thread/INFO]: Searching /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/run/mods for mods
-[12:20:56] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[12:20:56] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at CLIENT
-[12:20:56] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at SERVER
-[12:20:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
-[12:20:57] [Client thread/INFO]: Processing ObjectHolder annotations
-[12:20:57] [Client thread/INFO]: Found 423 ObjectHolder annotations
-[12:20:57] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[12:20:57] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[12:20:57] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[12:20:57] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[12:20:57] [Client thread/INFO]: Pre Initialization Complete
-[12:20:57] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.1.2011
-[12:20:57] [Client thread/INFO]: Applying holder lookups
-[12:20:57] [Client thread/INFO]: Holder lookups applied
-[12:20:57] [Client thread/INFO]: Injecting itemstacks
-[12:20:57] [Client thread/INFO]: Itemstack injection complete
-[12:20:58] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:20:58] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[12:20:58] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:20:58] [Thread-6/INFO]: OpenAL initialized.
-[12:20:58] [Sound Library Loader/INFO]: Sound engine started
-[12:21:00] [Client thread/INFO]: Max texture size: 16384
-[12:21:00] [Client thread/INFO]: Created: 16x16 textures-atlas
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:00] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", normal location exception: 
+[18:34:18] [main/INFO]: Extra: []
+[18:34:18] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/MattPorter/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:34:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:34:18] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:34:18] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:34:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:34:18] [main/INFO]: Forge Mod Loader version 12.18.0.2007 for Minecraft 1.10.2 loading
+[18:34:18] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_74, running on Mac OS X:x86_64:10.11.3, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre
+[18:34:18] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:34:18] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:34:18] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:34:18] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:34:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:34:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:34:18] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:34:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:34:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:34:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:34:18] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[18:34:19] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[18:34:19] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:34:19] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:34:19] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:34:19] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:34:19] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:34:19] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:34:21] [Client thread/INFO]: Setting user: Player579
+[18:34:24] [Client thread/WARN]: Skipping bad option: lastServer:
+[18:34:24] [Client thread/INFO]: LWJGL Version: 2.9.2
+[18:34:25] [Client thread/INFO]: MinecraftForge v12.18.0.2007 Initialized
+[18:34:25] [Client thread/INFO]: Replaced 233 ore recipes
+[18:34:25] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:34:25] [Client thread/INFO]: Searching /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/run/mods for mods
+[18:34:27] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[18:34:27] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at CLIENT
+[18:34:27] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, Caster] at SERVER
+[18:34:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[18:34:28] [Client thread/INFO]: Processing ObjectHolder annotations
+[18:34:28] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[18:34:28] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[18:34:28] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[18:34:28] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[18:34:28] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:34:28] [Client thread/INFO]: Pre Initialization Complete
+[18:34:28] [Client thread/INFO]: Applying holder lookups
+[18:34:28] [Client thread/INFO]: Holder lookups applied
+[18:34:28] [Client thread/INFO]: Injecting itemstacks
+[18:34:28] [Client thread/INFO]: Itemstack injection complete
+[18:34:28] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.1.2011
+[18:34:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:34:29] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[18:34:29] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:34:29] [Thread-6/INFO]: OpenAL initialized.
+[18:34:30] [Sound Library Loader/INFO]: Sound engine started
+[18:34:31] [Client thread/INFO]: Max texture size: 16384
+[18:34:31] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:31] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:32] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/elementalhoe with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -118,7 +118,7 @@ Caused by: java.io.FileNotFoundException: caster:models/item/elementalhoe.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[12:21:00] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", blockstate location exception: 
+[18:34:32] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:elementalhoe#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -151,7 +151,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1183) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[12:21:00] [Client thread/ERROR]: Exception loading model for variant caster:elementalinfuser#normal for blockstate "caster:elementalinfuser"
+[18:34:32] [Client thread/ERROR]: Exception loading model for variant caster:elementalinfuser#normal for blockstate "caster:elementalinfuser"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:elementalinfuser#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -195,7 +195,7 @@ Caused by: java.lang.NullPointerException
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 26 more
-[12:21:00] [Client thread/ERROR]: Exception loading model for variant caster:castingaltar#normal for blockstate "caster:castingaltar"
+[18:34:32] [Client thread/ERROR]: Exception loading model for variant caster:castingaltar#normal for blockstate "caster:castingaltar"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:castingaltar#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -239,7 +239,7 @@ Caused by: java.lang.NullPointerException
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 26 more
-[12:21:00] [Client thread/ERROR]: Exception loading model for variant caster:castingpurifier#normal for blockstate "caster:castingpurifier"
+[18:34:32] [Client thread/ERROR]: Exception loading model for variant caster:castingpurifier#normal for blockstate "caster:castingpurifier"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:castingpurifier#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -283,51 +283,51 @@ Caused by: java.lang.NullPointerException
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 26 more
-[12:21:00] [Client thread/ERROR]: Suppressed additional 0 model loading errors for domain caster
-[12:21:01] [Client thread/INFO]: Initialization Complete
-[12:21:01] [Client thread/INFO]: Injecting itemstacks
-[12:21:01] [Client thread/INFO]: Itemstack injection complete
-[12:21:01] [Client thread/INFO]: Post Initialization Complete
-[12:21:01] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[12:21:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
-[12:21:01] [Client thread/INFO]: SoundSystem shutting down...
-[12:21:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[12:21:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:21:02] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[12:21:02] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:21:02] [Thread-8/INFO]: OpenAL initialized.
-[12:21:03] [Sound Library Loader/INFO]: Sound engine started
-[12:21:03] [Client thread/INFO]: Max texture size: 16384
-[12:21:03] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[12:21:04] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", normal location exception: 
+[18:34:32] [Client thread/ERROR]: Suppressed additional 0 model loading errors for domain caster
+[18:34:32] [Client thread/INFO]: Initialization Complete
+[18:34:32] [Client thread/INFO]: Injecting itemstacks
+[18:34:32] [Client thread/INFO]: Itemstack injection complete
+[18:34:32] [Client thread/INFO]: Post Initialization Complete
+[18:34:32] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[18:34:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Caster
+[18:34:33] [Client thread/INFO]: SoundSystem shutting down...
+[18:34:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:34:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:34:34] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[18:34:34] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:34:34] [Thread-8/INFO]: OpenAL initialized.
+[18:34:34] [Sound Library Loader/INFO]: Sound engine started
+[18:34:35] [Client thread/INFO]: Max texture size: 16384
+[18:34:35] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:34:35] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:item/elementalhoe with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -366,7 +366,7 @@ Caused by: java.io.FileNotFoundException: caster:models/item/elementalhoe.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[12:21:04] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", blockstate location exception: 
+[18:34:35] [Client thread/ERROR]: Exception loading model for variant caster:elementalhoe#inventory for item "caster:elementalhoe", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:elementalhoe#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -402,7 +402,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1183) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[12:21:04] [Client thread/ERROR]: Exception loading model for variant caster:elementalinfuser#normal for blockstate "caster:elementalinfuser"
+[18:34:35] [Client thread/ERROR]: Exception loading model for variant caster:elementalinfuser#normal for blockstate "caster:elementalinfuser"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:elementalinfuser#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -449,7 +449,7 @@ Caused by: java.lang.NullPointerException
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 29 more
-[12:21:04] [Client thread/ERROR]: Exception loading model for variant caster:castingaltar#normal for blockstate "caster:castingaltar"
+[18:34:35] [Client thread/ERROR]: Exception loading model for variant caster:castingaltar#normal for blockstate "caster:castingaltar"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:castingaltar#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -496,7 +496,7 @@ Caused by: java.lang.NullPointerException
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 29 more
-[12:21:04] [Client thread/ERROR]: Exception loading model for variant caster:castingpurifier#normal for blockstate "caster:castingpurifier"
+[18:34:35] [Client thread/ERROR]: Exception loading model for variant caster:castingpurifier#normal for blockstate "caster:castingpurifier"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model caster:castingpurifier#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -543,69 +543,69 @@ Caused by: java.lang.NullPointerException
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 29 more
-[12:21:04] [Client thread/ERROR]: Suppressed additional 0 model loading errors for domain caster
-[12:21:04] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:21:04] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[12:21:04] [Client thread/ERROR]: The following texture errors were found.
-[12:21:04] [Client thread/ERROR]: ==================================================
-[12:21:04] [Client thread/ERROR]:   DOMAIN caster
-[12:21:04] [Client thread/ERROR]: --------------------------------------------------
-[12:21:04] [Client thread/ERROR]:   domain caster is missing 24 textures
-[12:21:04] [Client thread/ERROR]:     domain caster has 1 location:
-[12:21:04] [Client thread/ERROR]:       mod Caster resources at /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/out/production/Caster
-[12:21:04] [Client thread/ERROR]: -------------------------
-[12:21:04] [Client thread/ERROR]:     The missing resources for domain caster are:
-[12:21:04] [Client thread/ERROR]:       textures/blocks/sorcererstoneore.png
-[12:21:04] [Client thread/ERROR]:       textures/items/leaf.png
-[12:21:04] [Client thread/ERROR]:       textures/items/emptybottle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalsword.png
-[12:21:04] [Client thread/ERROR]:       textures/items/firesickle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalaxe.png
-[12:21:04] [Client thread/ERROR]:       textures/items/twig.png
-[12:21:04] [Client thread/ERROR]:       textures/items/watersickle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/leafstew.png
-[12:21:04] [Client thread/ERROR]:       textures/items/sorcererstone.png
-[12:21:04] [Client thread/ERROR]:       textures/items/guidebook.png
-[12:21:04] [Client thread/ERROR]:       textures/items/leafsickle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalsickle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalchestplate.png
-[12:21:04] [Client thread/ERROR]:       textures/items/airsickle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elixircrystal.png
-[12:21:04] [Client thread/ERROR]:       textures/items/bottleofelixir.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalhelmet.png
-[12:21:04] [Client thread/ERROR]:       textures/items/ironsickle.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalshovel.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalboots.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalgemstone.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalpickaxe.png
-[12:21:04] [Client thread/ERROR]:       textures/items/elementalleggings.png
-[12:21:04] [Client thread/ERROR]: -------------------------
-[12:21:04] [Client thread/ERROR]:     No other errors exist for domain caster
-[12:21:04] [Client thread/ERROR]: ==================================================
-[12:21:04] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[12:21:05] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[12:21:13] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
-[12:21:13] [Server thread/INFO]: Generating keypair
-[12:21:13] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[12:21:13] [Server thread/INFO]: Applying holder lookups
-[12:21:13] [Server thread/INFO]: Holder lookups applied
-[12:21:13] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2735b1eb)
-[12:21:14] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2735b1eb)
-[12:21:14] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2735b1eb)
-[12:21:14] [Server thread/INFO]: Preparing start region for level 0
-[12:21:14] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:21:15] [Netty Local Client IO #0/INFO]: Server protocol version 2
-[12:21:15] [Netty Server IO #1/INFO]: Client protocol version 2
-[12:21:15] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@12.18.0.2007,mcp@9.19,Caster@1.10.2-0.0.1
-[12:21:15] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
-[12:21:15] [Server thread/INFO]: [Server thread] Server side modded connection established
-[12:21:15] [Server thread/INFO]: Player355[local:E:1d16b7aa] logged in with entity id 0 at (-1314.5619805689337, 56.0, 2211.9395127503662)
-[12:21:15] [Server thread/INFO]: Player355 joined the game
-[12:21:16] [Server thread/INFO]: Saving and pausing game...
-[12:21:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:21:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:21:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:21:16] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@69b7b004[id=1b8d41ee-20e2-3849-a434-0d774a740ae1,name=Player355,properties={},legacy=false]
+[18:34:35] [Client thread/ERROR]: Suppressed additional 0 model loading errors for domain caster
+[18:34:35] [Client thread/WARN]: Skipping bad option: lastServer:
+[18:34:36] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[18:34:36] [Client thread/ERROR]: The following texture errors were found.
+[18:34:36] [Client thread/ERROR]: ==================================================
+[18:34:36] [Client thread/ERROR]:   DOMAIN caster
+[18:34:36] [Client thread/ERROR]: --------------------------------------------------
+[18:34:36] [Client thread/ERROR]:   domain caster is missing 24 textures
+[18:34:36] [Client thread/ERROR]:     domain caster has 1 location:
+[18:34:36] [Client thread/ERROR]:       mod Caster resources at /Users/MattPorter/Desktop/Minecraft Porjects/1.10/Caster/out/production/Caster
+[18:34:36] [Client thread/ERROR]: -------------------------
+[18:34:36] [Client thread/ERROR]:     The missing resources for domain caster are:
+[18:34:36] [Client thread/ERROR]:       textures/blocks/sorcererstoneore.png
+[18:34:36] [Client thread/ERROR]:       textures/items/leaf.png
+[18:34:36] [Client thread/ERROR]:       textures/items/emptybottle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalsword.png
+[18:34:36] [Client thread/ERROR]:       textures/items/firesickle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalaxe.png
+[18:34:36] [Client thread/ERROR]:       textures/items/twig.png
+[18:34:36] [Client thread/ERROR]:       textures/items/watersickle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/leafstew.png
+[18:34:36] [Client thread/ERROR]:       textures/items/sorcererstone.png
+[18:34:36] [Client thread/ERROR]:       textures/items/guidebook.png
+[18:34:36] [Client thread/ERROR]:       textures/items/leafsickle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalsickle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalchestplate.png
+[18:34:36] [Client thread/ERROR]:       textures/items/airsickle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elixircrystal.png
+[18:34:36] [Client thread/ERROR]:       textures/items/bottleofelixir.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalhelmet.png
+[18:34:36] [Client thread/ERROR]:       textures/items/ironsickle.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalshovel.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalboots.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalgemstone.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalpickaxe.png
+[18:34:36] [Client thread/ERROR]:       textures/items/elementalleggings.png
+[18:34:36] [Client thread/ERROR]: -------------------------
+[18:34:36] [Client thread/ERROR]:     No other errors exist for domain caster
+[18:34:36] [Client thread/ERROR]: ==================================================
+[18:34:36] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[18:34:36] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:34:39] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[18:34:39] [Server thread/INFO]: Generating keypair
+[18:34:39] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[18:34:39] [Server thread/INFO]: Applying holder lookups
+[18:34:39] [Server thread/INFO]: Holder lookups applied
+[18:34:39] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@18c72ef6)
+[18:34:39] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@18c72ef6)
+[18:34:39] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@18c72ef6)
+[18:34:39] [Server thread/INFO]: Preparing start region for level 0
+[18:34:39] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:34:40] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[18:34:40] [Netty Server IO #1/INFO]: Client protocol version 2
+[18:34:40] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@12.18.0.2007,mcp@9.19,Caster@1.10.2-0.0.1
+[18:34:40] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[18:34:40] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:34:40] [Server thread/INFO]: Player579[local:E:db7092e0] logged in with entity id 0 at (-1314.5619805689337, 56.0, 2211.9395127503662)
+[18:34:40] [Server thread/INFO]: Player579 joined the game
+[18:34:41] [Server thread/INFO]: Saving and pausing game...
+[18:34:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:34:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:34:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:34:42] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@be5a5d7[id=6ae8fe40-3ccb-3755-8fd2-c5445728b386,name=Player579,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
@@ -627,4 +627,3 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_74]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_74]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_74]
-[12:21:48] [Client Shutdown Thread/INFO]: Stopping server

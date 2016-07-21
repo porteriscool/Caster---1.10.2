@@ -10,6 +10,8 @@ public class BookEntryListItem implements IBookEntry
 {
     private ItemStack stack;
     private String title;
+    private int xPos;
+    private int yPos;
 
     public BookEntryListItem(ItemStack stack, String title)
     {
@@ -20,12 +22,15 @@ public class BookEntryListItem implements IBookEntry
     @Override
     public void drawEntry(GuiGuideBook gui, int x, int y, int mouseX, int mouseY)
     {
-        gui.renderItemStackAt(stack, x, y);
+        xPos = x;
+        yPos = y;
+
+        gui.renderItemStackAt(stack, x - 4, y - 4);
 
         int xSize = gui.getStringWidth(title);
 
-        Color color = Color.BLACK;
-        if (gui.isInRect(x, y, xSize, 16, mouseX, mouseY)) color = Color.DARK_GRAY;
+        Color color = Color.GRAY;
+        if (isMouseOver(gui, mouseX, mouseY)) color = Color.BLACK;
         gui.renderText(title, x + 16, y, color.getRGB());
     }
 
@@ -38,7 +43,7 @@ public class BookEntryListItem implements IBookEntry
     @Override
     public boolean isMouseOver(GuiGuideBook gui, int mouseX, int mouseY)
     {
-        return false;
+        return gui.isInRect(xPos, yPos, 16 + gui.getStringWidth(this.title), 16, mouseX, mouseY);
     }
 
     @Override

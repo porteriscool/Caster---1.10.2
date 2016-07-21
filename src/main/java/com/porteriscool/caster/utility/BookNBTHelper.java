@@ -1,8 +1,8 @@
 package com.porteriscool.caster.utility;
 
-import com.porteriscool.caster.client.gui.book.BookEntryIndex;
-import com.porteriscool.caster.client.gui.book.BookPageIndex;
-import com.porteriscool.caster.client.gui.book.IBookPage;
+import com.porteriscool.caster.client.gui.book.*;
+import com.porteriscool.caster.init.ModBlocks;
+import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.reference.Reference;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -15,9 +15,9 @@ public class BookNBTHelper
 {
     public static final String PAGE_TAG = "Page";
 
-    public static final String METALLURGY_TAG = "MetallurgyLevel";
-    public static final String ALCHEMY_TAG    = "AlchemyLevel";
-    public static final String IMBUING_TAG    = "ImbuingLevel";
+    public static final String ELEMENTAL_TAG = "ElementalLevel";
+    public static final String ELIXIR_TAG = "ElixirLevel";
+    public static final String TOOL_TAG = "ToolLevel";
 
     public static final String NETHER_TIER  = "NetherTier";
     public static final String ENDER_TIER   = "EnderTier";
@@ -31,9 +31,9 @@ public class BookNBTHelper
 
         tag.setInteger(PAGE_TAG, 0);
 
-        tag.setInteger(METALLURGY_TAG, 1);
-        tag.setInteger(ALCHEMY_TAG, 0);
-        tag.setInteger(IMBUING_TAG, 0);
+        tag.setInteger(ELEMENTAL_TAG, 1);
+        tag.setInteger(ELIXIR_TAG, 0);
+        tag.setInteger(TOOL_TAG, 0);
 
         tag.setBoolean(NETHER_TIER, false);
         tag.setBoolean(ENDER_TIER, false);
@@ -48,15 +48,19 @@ public class BookNBTHelper
 
         int currentPage = ItemNBTHelper.getInt(stack, PAGE_TAG, 0);
 
-        int metallurgy = ItemNBTHelper.getInt(stack, METALLURGY_TAG, 0);
-        int alchemy    = ItemNBTHelper.getInt(stack, ALCHEMY_TAG, 0);
-        int imbuing    = ItemNBTHelper.getInt(stack, IMBUING_TAG, 0);
+        int elemental = ItemNBTHelper.getInt(stack, ELEMENTAL_TAG, 0);
+        int elixir = ItemNBTHelper.getInt(stack, ELIXIR_TAG, 0);
+        int tool = ItemNBTHelper.getInt(stack, TOOL_TAG, 0);
 
         boolean nether  = ItemNBTHelper.getBoolean(stack, NETHER_TIER, false);
         boolean ender   = ItemNBTHelper.getBoolean(stack, ENDER_TIER, false);
         boolean balance = ItemNBTHelper.getBoolean(stack, BALANCE_TIER, false);
 
-        pages.add(constructIndex(metallurgy, alchemy, imbuing, nether, ender, balance));
+        pages.add(constructIndex(elemental, elixir, tool, nether, ender, balance));
+
+        pages.add(constructANewBeginning());
+
+        pages.add(constructElixir(elixir));
 
         return pages;
     }
@@ -71,15 +75,37 @@ public class BookNBTHelper
         ItemNBTHelper.setInt(stack, PAGE_TAG, page);
     }
 
-    private static IBookPage constructIndex(int metallurgy, int alchemy, int imbuing, boolean nether, boolean ender, boolean balance)
+    private static IBookPage constructIndex(int elemental, int elixir, int tool, boolean nether, boolean ender, boolean balance)
     {
         BookPageIndex indexPage = new BookPageIndex();
 
         indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 0, "A New Beginning", 1));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 0, "<WIP>", 2));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 0, "<WIP>", 2));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 64, "<WIP>", 2));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 0, "Elixir", 1));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 0, "Tools", 1));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 64, "Armor", 2));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 64, "Fire", 2));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 64, "Water", 2));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 128, "Food", 3));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 128, "Air", 3));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 128, "Leaf", 3));
 
         return indexPage;
+    }
+
+    private static IBookPage constructANewBeginning()
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("A New Beginning", 0);
+
+        categoryPage.addEntry(new BookEntryListItem(new ItemStack(ModItems.guidebook), "Getting Started"));
+        categoryPage.addEntry(new BookEntryListItem(new ItemStack(ModBlocks.workbench), "Crafting Mechanics"));
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructElixir(int elixir)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Elixir", 0);
+
+        return categoryPage;
     }
 }

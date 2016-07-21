@@ -9,8 +9,8 @@ import java.util.List;
 
 public class BookPageIndex implements IBookPage
 {
-    private static final int entryStart_X = 22;
-    private static final int entryStart_Y = 30;
+    private static final int entryStart_X = 24;
+    private static final int entryStart_Y = 38;
 
     private List<IBookEntry> entries;
 
@@ -28,7 +28,7 @@ public class BookPageIndex implements IBookPage
     @Override
     public String getTitle()
     {
-        return "Caster Guide Book";
+        return "Caster";
     }
 
     public void addEntry(BookEntryIndex entry)
@@ -39,26 +39,14 @@ public class BookPageIndex implements IBookPage
     @Override
     public void drawPage(GuiGuideBook gui, int x, int y, int mouseX, int mouseY)
     {
-        gui.renderText("Caster", x + 58, y + 16, Color.BLACK.getRGB());
-
+        gui.renderText(getTitle(), (x + 74) - (gui.getStringWidth(getTitle()) / 2), y + 16, Color.BLACK.getRGB());
 
         GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
 
         for(int i = 0; i < entries.size(); i++)
         {
-            int entryX;
-            int entryY;
-
-            if (i == 0)
-            {
-                entryX = x + entryStart_X + 34;
-                entryY = y + entryStart_Y;
-            }
-            else
-            {
-                entryX = x + entryStart_X + (((i - 1) % 3 == 0) ? 0 : 34 * (i - 1));
-                entryY = y + entryStart_Y + (34 * (((i - 1) / 3) + 1));
-            }
+            int entryX = x + entryStart_X + ((i % 3 == 0) ? 0 : (i % 3) * 32);
+            int entryY = y + entryStart_Y + (32 * (i / 3));
 
             entries.get(i).drawEntry(gui, entryX, entryY, mouseX, mouseY);
         }
@@ -67,7 +55,9 @@ public class BookPageIndex implements IBookPage
     @Override
     public void mouseClicked(GuiGuideBook gui, int mouseX, int mouseY, int mouseButton)
     {
-
+        IBookEntry entry = getMousedOver(gui, mouseX, mouseY);
+        if (entry != null)
+            entry.mouseClicked(gui);
     }
 
     @Override

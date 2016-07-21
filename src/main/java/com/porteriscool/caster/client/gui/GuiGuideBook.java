@@ -1,7 +1,9 @@
 package com.porteriscool.caster.client.gui;
 
+import com.porteriscool.caster.client.gui.book.BookPageIndex;
 import com.porteriscool.caster.client.gui.book.IBookEntry;
 import com.porteriscool.caster.client.gui.book.IBookPage;
+import com.porteriscool.caster.client.gui.book.IPageReturnable;
 import com.porteriscool.caster.reference.Reference;
 import com.porteriscool.caster.utility.BookNBTHelper;
 import com.porteriscool.caster.utility.ItemNBTHelper;
@@ -9,6 +11,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.client.renderer.RenderHelper;
+import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -47,10 +51,14 @@ public class GuiGuideBook extends GuiScreen
     @Override
     public void mouseClicked(int mouseX, int mouseY, int mouseButton)
     {
-        // Gui's page-independant mouseClick handling
+        // Gui's page-independant mouseClick handling'
+        if (mouseButton == 1) returnPage();
 
-        IBookPage page = pages.get(index);
-        page.mouseClicked(this, mouseX, mouseY, mouseButton);
+        if (mouseButton == 0)
+        {
+            IBookPage page = pages.get(index);
+            page.mouseClicked(this, mouseX, mouseY, mouseButton);
+        }
     }
 
     @Override
@@ -98,7 +106,9 @@ public class GuiGuideBook extends GuiScreen
 
     public void renderItemStackAt(ItemStack stack, int x, int y)
     {
+        RenderHelper.enableGUIStandardItemLighting();
         this.itemRender.renderItemIntoGUI(stack, x, y);
+        RenderHelper.disableStandardItemLighting();
         GlStateManager.color(1f, 1f, 1f, 1f);
     }
 
@@ -110,6 +120,7 @@ public class GuiGuideBook extends GuiScreen
     public void renderText(String text, int x, int y, int color)
     {
         this.fontRendererObj.drawString(text, x, y, color);
+        GlStateManager.color(1.0f, 1.0f, 1.0f, 1.0f);
     }
 
     public int getStringWidth(String text)
@@ -140,5 +151,15 @@ public class GuiGuideBook extends GuiScreen
     public int getGuiTop()
     {
         return (this.height / 2) - (BG_HEIGHT / 2);
+    }
+
+    private void returnPage()
+    {
+        IBookPage page = pages.get(index);
+        if (page instanceof IPageReturnable)
+        {
+            int returnIndex = ((IPageReturnable)page).getReturnIndex();
+            if (returnIndex != index) index = returnIndex;
+        }
     }
 }
