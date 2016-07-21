@@ -6,6 +6,7 @@ import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.proxy.CommonProxy;
 import com.porteriscool.caster.reference.Reference;
 import com.porteriscool.caster.utility.LogHelper;
+import com.porteriscool.caster.utility.OreGeneration;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -13,11 +14,12 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_MC_VERSIONS,guiFactory = Reference.GUI_FACTORY_CLASS)
 public class Caster
 {
-    @Instance(Reference.MOD_ID)
+    @Instance("caster")
     public static Caster instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
@@ -42,6 +44,7 @@ public class Caster
     public void init(FMLInitializationEvent event)
     {
         LogHelper.info("Initialization Complete");
+        GameRegistry.registerWorldGenerator(new OreGeneration(), 0);
         proxy.init(event);
     }
 

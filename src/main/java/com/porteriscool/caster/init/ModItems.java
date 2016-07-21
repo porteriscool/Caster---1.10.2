@@ -10,12 +10,15 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraft.item.Item.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ModItems
 {
     public static Item
             crafting, guidebook, emptybottle, bottleofelixir, leaf, twig, leafstew, leafcrystal, firecrystal,
             aircrystal, watercrystal, elixircrystal, sorcererstone, elementalgemstone, elementalpickaxe,
-            elementalaxe, elementalshovel, elementalsword, elementalhoe, elementalsickle, sorcererswand, ironsickle,
+            elementalsword, elementalaxe, elementalshovel, elementalhoe, elementalsickle, sorcererswand, ironsickle,
             elementalboots, elementalleggings, elementalchestplate, elementalhelmet, airaxe, airhoe, airpickaxe,
             airshovel, airsickle, airsword, fireaxe, firehoe, firepickaxe, fireshovel, firesickle, firesword,
             leafaxe, leafhoe, leafpickaxe, leafshovel, leafsickle, leafsword, wateraxe, waterhoe, waterpickaxe,
@@ -23,8 +26,12 @@ public class ModItems
 
     public static ToolMaterial elementalMaterial = EnumHelper.addToolMaterial("elementalMaterial", 3, 1050, 7.0f, 3.0f, 10);
 
-    public static void init()
+    public static List<Item> registeredItems;
+
+    public static final void init()
     {
+        registeredItems = new ArrayList<Item>();
+
         guidebook = new ItemGuideBook();
         GameRegistry.register(guidebook);
 
