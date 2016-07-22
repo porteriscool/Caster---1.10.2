@@ -15,13 +15,14 @@ public class BookNBTHelper
 {
     public static final String PAGE_TAG = "Page";
 
-    public static final String ELEMENTAL_TAG = "ElementalLevel";
     public static final String ELIXIR_TAG = "ElixirLevel";
     public static final String TOOL_TAG = "ToolLevel";
-
-    public static final String NETHER_TIER  = "NetherTier";
-    public static final String ENDER_TIER   = "EnderTier";
-    public static final String BALANCE_TIER = "BalanceTier";
+    public static final String ARMOR_TAG = "ArmorLevel";
+    public static final String FIRE_TAG = "FireLevel";
+    public static final String WATER_TAG = "WaterLevel";
+    public static final String FOOD_TAG = "FoodLevel";
+    public static final String AIR_TAG = "AirLevel";
+    public static final String LEAF_TAG = "LeafLevel";
 
     private static final ResourceLocation ICON_SHEET = new ResourceLocation(Reference.MOD_ID.toLowerCase() + ":textures/gui/bookIcons.png");
 
@@ -31,13 +32,14 @@ public class BookNBTHelper
 
         tag.setInteger(PAGE_TAG, 0);
 
-        tag.setInteger(ELEMENTAL_TAG, 1);
+        tag.setInteger(ARMOR_TAG, 0);
         tag.setInteger(ELIXIR_TAG, 0);
         tag.setInteger(TOOL_TAG, 0);
-
-        tag.setBoolean(NETHER_TIER, false);
-        tag.setBoolean(ENDER_TIER, false);
-        tag.setBoolean(BALANCE_TIER, false);
+        tag.setInteger(FIRE_TAG, 0);
+        tag.setInteger(WATER_TAG, 0);
+        tag.setInteger(FOOD_TAG, 0);
+        tag.setInteger(AIR_TAG, 0);
+        tag.setInteger(LEAF_TAG, 0);
 
         ItemNBTHelper.injectNBT(stack, tag);
     }
@@ -48,19 +50,25 @@ public class BookNBTHelper
 
         int currentPage = ItemNBTHelper.getInt(stack, PAGE_TAG, 0);
 
-        int elemental = ItemNBTHelper.getInt(stack, ELEMENTAL_TAG, 0);
+        int armor = ItemNBTHelper.getInt(stack, ARMOR_TAG, 0);
         int elixir = ItemNBTHelper.getInt(stack, ELIXIR_TAG, 0);
-        int tool = ItemNBTHelper.getInt(stack, TOOL_TAG, 0);
+        int tools = ItemNBTHelper.getInt(stack, TOOL_TAG, 0);
+        int fire = ItemNBTHelper.getInt(stack, FIRE_TAG, 0);
+        int water = ItemNBTHelper.getInt(stack, WATER_TAG, 0);
+        int food = ItemNBTHelper.getInt(stack, FOOD_TAG, 0);
+        int air = ItemNBTHelper.getInt(stack, AIR_TAG, 0);
+        int leaf = ItemNBTHelper.getInt(stack, LEAF_TAG, 0);
 
-        boolean nether  = ItemNBTHelper.getBoolean(stack, NETHER_TIER, false);
-        boolean ender   = ItemNBTHelper.getBoolean(stack, ENDER_TIER, false);
-        boolean balance = ItemNBTHelper.getBoolean(stack, BALANCE_TIER, false);
-
-        pages.add(constructIndex(elemental, elixir, tool, nether, ender, balance));
-
+        pages.add(constructIndex(elixir, tools, armor, fire, water, food, air, leaf));
         pages.add(constructANewBeginning());
-
         pages.add(constructElixir(elixir));
+        pages.add(constructTools(tools));
+        pages.add(constructArmor(armor));
+        pages.add(constructFire(elixir));
+        pages.add(constructWater(elixir));
+        pages.add(constructFood(elixir));
+        pages.add(constructAir(elixir));
+        pages.add(constructLeaf(elixir));
 
         return pages;
     }
@@ -75,19 +83,19 @@ public class BookNBTHelper
         ItemNBTHelper.setInt(stack, PAGE_TAG, page);
     }
 
-    private static IBookPage constructIndex(int elemental, int elixir, int tool, boolean nether, boolean ender, boolean balance)
+    private static IBookPage constructIndex(int elixir, int tool, int armor, int fire, int water, int food, int air, int leaf)
     {
         BookPageIndex indexPage = new BookPageIndex();
 
         indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 0, "A New Beginning", 1));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 0, "Elixir", 1));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 0, "Tools", 1));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 64, "Armor", 2));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 64, "Fire", 2));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 64, "Water", 2));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 128, "Food", 3));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 128, "Air", 3));
-        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 128, "Leaf", 3));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 0, "Elixir", 2));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 0, "Tools", 3));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 64, "Armor", 4));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 64, "Fire", 5));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 64, "Water", 6));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 128, 128, "Food", 7));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 64, 128, "Air", 8));
+        indexPage.addEntry(new BookEntryIndex(ICON_SHEET, 0, 128, "Leaf", 9));
 
         return indexPage;
     }
@@ -97,7 +105,6 @@ public class BookNBTHelper
         BookPageEntryList categoryPage = new BookPageEntryList("A New Beginning", 0);
 
         categoryPage.addEntry(new BookEntryListItem(new ItemStack(ModItems.guidebook), "Getting Started"));
-        categoryPage.addEntry(new BookEntryListItem(new ItemStack(ModBlocks.workbench), "Crafting Mechanics"));
 
         return categoryPage;
     }
@@ -105,6 +112,57 @@ public class BookNBTHelper
     private static IBookPage constructElixir(int elixir)
     {
         BookPageEntryList categoryPage = new BookPageEntryList("Elixir", 0);
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructTools(int tools)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Tools", 0);
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructArmor(int armor)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Armor", 0);
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructFire(int fire)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Fire", 0);
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructWater(int water)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Water", 0);
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructFood(int food)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Food", 0);
+
+        categoryPage.addEntry(new BookEntryListItem(new ItemStack(ModItems.leafstew), "Leaf Stew"));
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructAir(int air)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Air", 0);
+
+        return categoryPage;
+    }
+
+    private static IBookPage constructLeaf(int leaf)
+    {
+        BookPageEntryList categoryPage = new BookPageEntryList("Leaf", 0);
 
         return categoryPage;
     }

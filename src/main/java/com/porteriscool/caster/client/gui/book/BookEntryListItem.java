@@ -43,7 +43,7 @@ public class BookEntryListItem implements IBookEntry
     @Override
     public boolean isMouseOver(GuiGuideBook gui, int mouseX, int mouseY)
     {
-        return gui.isInRect(xPos, yPos, 16 + gui.getStringWidth(this.title), 16, mouseX, mouseY);
+        return gui.isInRect(xPos, yPos, 16 + gui.getStringWidth(this.title), 14, mouseX, mouseY);
     }
 
     @Override

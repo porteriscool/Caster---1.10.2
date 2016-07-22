@@ -22,7 +22,9 @@ public class ModItems
             elementalboots, elementalleggings, elementalchestplate, elementalhelmet, airaxe, airhoe, airpickaxe,
             airshovel, airsickle, airsword, fireaxe, firehoe, firepickaxe, fireshovel, firesickle, firesword,
             leafaxe, leafhoe, leafpickaxe, leafshovel, leafsickle, leafsword, wateraxe, waterhoe, waterpickaxe,
-            watershovel, watersickle, watersword;
+            watershovel, watersickle, watersword, fireboots, waterboots, leafboots, airboots, firechestplate,
+            airchestplate, leafchestplate, waterchestplate, firehelmet, waterhelmet, leafhelmet, airhelmet,
+            fireleggings, waterleggings, leafleggings, airleggings;
 
     public static ToolMaterial elementalMaterial = EnumHelper.addToolMaterial("elementalMaterial", 3, 1050, 7.0f, 3.0f, 10);
 
@@ -82,6 +84,54 @@ public class ModItems
 
         elementalboots = new ItemElementalBoots();
         GameRegistry.register(elementalboots);
+
+        leafhelmet = new ItemLeafHelmet();
+        GameRegistry.register(elementalhelmet);
+
+        leafchestplate = new ItemLeafChestplate();
+        GameRegistry.register(leafchestplate);
+
+        leafleggings = new ItemLeafLeggings();
+        GameRegistry.register(leafleggings);
+
+        leafboots = new ItemLeafBoots();
+        GameRegistry.register(leafboots);
+
+        firehelmet = new ItemFireHelmet();
+        GameRegistry.register(firehelmet);
+
+        firechestplate = new ItemFireChestplate();
+        GameRegistry.register(firechestplate);
+
+        fireleggings = new ItemFireLeggings();
+        GameRegistry.register(fireleggings);
+
+        fireboots = new ItemFireBoots();
+        GameRegistry.register(fireboots);
+
+        waterhelmet = new ItemWaterHelmet();
+        GameRegistry.register(waterhelmet);
+
+        waterchestplate = new ItemWaterChestplate();
+        GameRegistry.register(waterchestplate);
+
+        waterleggings = new ItemWaterLeggings();
+        GameRegistry.register(waterleggings);
+
+        waterboots = new ItemWaterBoots();
+        GameRegistry.register(waterboots);
+
+        airhelmet = new ItemAirHelmet();
+        GameRegistry.register(airhelmet);
+
+        airchestplate = new ItemAirChestplate();
+        GameRegistry.register(airchestplate);
+
+        airleggings = new ItemAirLeggings();
+        GameRegistry.register(airleggings);
+
+        airboots = new ItemAirBoots();
+        GameRegistry.register(airboots);
 
         elementalpickaxe = new ItemElementalPickaxe();
         GameRegistry.register(elementalpickaxe);

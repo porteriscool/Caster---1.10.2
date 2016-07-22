@@ -8,7 +8,7 @@ import java.util.List;
 
 public class BookPageEntryList implements IBookPage, IPageReturnable
 {
-    private static final int entryStart_X = 20;
+    private static final int entryStart_X = 19;
     private static final int entryStart_Y = 38;
 
     private String title;
@@ -77,7 +77,6 @@ public class BookPageEntryList implements IBookPage, IPageReturnable
         }
 
         return null;
-
     }
 
     @Override

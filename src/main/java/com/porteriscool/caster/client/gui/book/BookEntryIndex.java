@@ -40,11 +40,11 @@ public class BookEntryIndex implements IBookEntry
 
         GL11.glPushMatrix();
         GL11.glScalef(0.28125f, 0.28125f, 0.28125f);
-        GL11.glTranslated(-87.5, -37.5, 100);
+        GL11.glTranslated(-90, -60, 100);
 
         GlStateManager.scale(2, 2, 2);
 
-        if (!gui.isInRect(x, y, 32, 32, mouseX, mouseY))
+        if (!gui.isInRect(x, y, 28, 28, mouseX, mouseY))
         {
             GlStateManager.color(1f, 1f, 1f, 0.5f);
             GlStateManager.enableBlend();
@@ -69,7 +69,7 @@ public class BookEntryIndex implements IBookEntry
     @Override
     public boolean isMouseOver(GuiGuideBook gui, int mouseX, int mouseY)
     {
-        return gui.isInRect(xPos, yPos, 32, 32, mouseX, mouseY);
+        return gui.isInRect(xPos, yPos, 28, 28, mouseX, mouseY);
     }
 
     @Override

@@ -55,6 +55,26 @@ item.caster.elementalleggings.name=Elemental Leggings
 item.caster.elementalchestplate.name=Elemental Chestplate
 item.caster.elementalhelmet.name=Elemental Helmet
 
+item.caster.leafboots.name=Leaf Boots
+item.caster.leafleggings.name=Leaf Leggings
+item.caster.leafchestplate.name=Leaf Chestplate
+item.caster.leafhelmet.name=Leaf Helmet
+
+item.caster.fireboots.name=Fire Boots
+item.caster.fireleggings.name=Fire Leggings
+item.caster.firechestplate.name=Fire Chestplate
+item.caster.firehelmet.name=Fire Helmet
+
+item.caster.waterboots.name=Water Boots
+item.caster.waterleggings.name=Water Leggings
+item.caster.waterchestplate.name=Water Chestplate
+item.caster.waterhelmet.name=Water Helmet
+
+item.caster.airboots.name=Air Boots
+item.caster.airleggings.name=Air Leggings
+item.caster.airchestplate.name=Air Chestplate
+item.caster.airhelmet.name=Air Helmet
+
 //Block
 tile.caster.sorcererstoneore.name=Sorcerer's Stone Ore
 tile.caster.workbench.name=Casting Workbench

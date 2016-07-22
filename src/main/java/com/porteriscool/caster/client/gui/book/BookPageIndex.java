@@ -10,7 +10,7 @@ import java.util.List;
 public class BookPageIndex implements IBookPage
 {
     private static final int entryStart_X = 24;
-    private static final int entryStart_Y = 38;
+    private static final int entryStart_Y = 45;
 
     private List<IBookEntry> entries;
 

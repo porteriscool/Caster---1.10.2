@@ -69,6 +69,26 @@ public class ModelHandler
         registerItemModel(ModItems.elementalchestplate, 0);
         registerItemModel(ModItems.elementalhelmet, 0);
 
+        registerItemModel(ModItems.leafboots, 0);
+        registerItemModel(ModItems.leafleggings, 0);
+        registerItemModel(ModItems.leafchestplate, 0);
+        registerItemModel(ModItems.leafhelmet, 0);
+
+        registerItemModel(ModItems.fireboots, 0);
+        registerItemModel(ModItems.fireleggings, 0);
+        registerItemModel(ModItems.firechestplate, 0);
+        registerItemModel(ModItems.firehelmet, 0);
+
+        registerItemModel(ModItems.waterboots, 0);
+        registerItemModel(ModItems.waterleggings, 0);
+        registerItemModel(ModItems.waterchestplate, 0);
+        registerItemModel(ModItems.waterhelmet, 0);
+
+        registerItemModel(ModItems.airboots, 0);
+        registerItemModel(ModItems.airleggings, 0);
+        registerItemModel(ModItems.airchestplate, 0);
+        registerItemModel(ModItems.airhelmet, 0);
+
         registerItemModel(ModBlocks.workbench, 0);
         registerItemModel(ModBlocks.castingpurifier, 0);
         registerItemModel(ModBlocks.elementalinfuser, 0);
