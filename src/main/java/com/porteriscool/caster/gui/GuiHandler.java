@@ -11,11 +11,11 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 public class GuiHandler implements IGuiHandler
 {
-    private static GuiHandler instance;
+    private static com.porteriscool.caster.handler.GuiHandler instance;
 
-    public static GuiHandler getInstance()
+    public static com.porteriscool.caster.handler.GuiHandler getInstance()
     {
-        if (instance == null) instance = new GuiHandler();
+        if (instance == null) instance = new com.porteriscool.caster.handler.GuiHandler();
         return instance;
     }
 

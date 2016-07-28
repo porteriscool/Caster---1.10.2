@@ -5,8 +5,11 @@ import com.porteriscool.caster.CreativeTabCaster;
 import com.porteriscool.caster.init.ModItems;
 import com.porteriscool.caster.reference.Reference;
 import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
+import net.minecraft.world.World;
 
 import java.util.Random;
 

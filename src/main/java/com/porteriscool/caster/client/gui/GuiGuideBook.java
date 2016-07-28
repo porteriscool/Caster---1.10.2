@@ -51,7 +51,6 @@ public class GuiGuideBook extends GuiScreen
     @Override
     public void mouseClicked(int mouseX, int mouseY, int mouseButton)
     {
-        // Gui's page-independant mouseClick handling'
         if (mouseButton == 1) returnPage();
 
         if (mouseButton == 0)

@@ -7,13 +7,14 @@ import com.porteriscool.caster.items.ItemBase;
 import com.porteriscool.caster.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemTool;
 
-public class ItemWaterPickaxe extends ItemTool
+public class ItemWaterPickaxe extends ItemPickaxe
 {
     public ItemWaterPickaxe()
     {
-        super(ModItems.elementalMaterial, Sets.newHashSet(new Block[]{Blocks.STONE}));
+        super(ModItems.elementalMaterial);
         setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".waterpickaxe");
         setRegistryName("waterpickaxe");
         setMaxStackSize(1);

@@ -93,16 +93,10 @@ public class ModelHandler
         registerItemModel(ModBlocks.castingpurifier, 0);
         registerItemModel(ModBlocks.elementalinfuser, 0);
         registerItemModel(ModBlocks.castingaltar, 0);
+        registerItemModel(ModBlocks.slate, 0);
+        registerItemModel(ModBlocks.polishedslate, 0);
         registerItemModel(ModBlocks.sorcererstoneore, 0);
         registerItemModel(ModBlocks.elixircrystalore, 0);
-
-        int i;
-
-        for (i = 0; i < ItemCrafting.types.length; ++i)
-        {
-            String[] name = ItemCrafting.types.clone();
-            registerItemModel(ModItems.crafting, i, name[i]);
-        }
     }
 
     static void registerItemModel(Block b, int meta)

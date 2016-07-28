@@ -3,15 +3,12 @@ package com.porteriscool.caster.init;
 import com.porteriscool.caster.items.armor.*;
 import com.porteriscool.caster.items.misc.*;
 import com.porteriscool.caster.items.tools.*;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemArmor.*;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.oredict.OreDictionary;
 import net.minecraft.item.Item.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ModItems
 {
@@ -26,14 +23,16 @@ public class ModItems
             airchestplate, leafchestplate, waterchestplate, firehelmet, waterhelmet, leafhelmet, airhelmet,
             fireleggings, waterleggings, leafleggings, airleggings;
 
-    public static ToolMaterial elementalMaterial = EnumHelper.addToolMaterial("elementalMaterial", 3, 1050, 7.0f, 3.0f, 10);
+    //Armor Materials
+    public static ArmorMaterial crystalArmorMaterial = EnumHelper.addArmorMaterial("crystalArmor", "caster:crystalArmor", 15, new int[]{2,5,6,2}, 9, null, 0);
+    public static ArmorMaterial elementalArmorMaterial = EnumHelper.addArmorMaterial("elementalArmor", "caster:elementalArmor", 33, new int[]{3,6,8,3}, 10, null, 2.0f);
 
-    public static List<Item> registeredItems;
+    //Tool Materials
+    public static ToolMaterial elementalMaterial = EnumHelper.addToolMaterial("elementalMaterial", 3, 1050, 8.0f, 3.0f, 15);
+    public static ToolMaterial crystalMaterial = EnumHelper.addToolMaterial("crystalMaterial", 3, 520, 6.0f, 3.0f, 10);
 
-    public static final void init()
+    public static void init()
     {
-        registeredItems = new ArrayList<Item>();
-
         guidebook = new ItemGuideBook();
         GameRegistry.register(guidebook);
 
@@ -73,64 +72,64 @@ public class ModItems
         elementalgemstone = new ItemElementalGemstone();
         GameRegistry.register(elementalgemstone);
 
-        elementalhelmet = new ItemElementalHelmet();
+        elementalhelmet = new ItemElementalArmor(3, EntityEquipmentSlot.HEAD);
         GameRegistry.register(elementalhelmet);
 
-        elementalchestplate = new ItemElementalChestplate();
+        elementalchestplate = new ItemElementalArmor(8, EntityEquipmentSlot.CHEST);
         GameRegistry.register(elementalchestplate);
 
-        elementalleggings = new ItemElementalLeggings();
+        elementalleggings = new ItemElementalArmor(6, EntityEquipmentSlot.LEGS);
         GameRegistry.register(elementalleggings);
 
-        elementalboots = new ItemElementalBoots();
+        elementalboots = new ItemElementalArmor(3, EntityEquipmentSlot.FEET);
         GameRegistry.register(elementalboots);
 
-        leafhelmet = new ItemLeafHelmet();
-        GameRegistry.register(elementalhelmet);
+        leafhelmet = new ItemLeafArmor(2, EntityEquipmentSlot.HEAD);
+        GameRegistry.register(leafhelmet);
 
-        leafchestplate = new ItemLeafChestplate();
+        leafchestplate = new ItemLeafArmor(6, EntityEquipmentSlot.CHEST);
         GameRegistry.register(leafchestplate);
 
-        leafleggings = new ItemLeafLeggings();
+        leafleggings = new ItemLeafArmor(5, EntityEquipmentSlot.LEGS);
         GameRegistry.register(leafleggings);
 
-        leafboots = new ItemLeafBoots();
+        leafboots = new ItemLeafArmor(2, EntityEquipmentSlot.FEET);
         GameRegistry.register(leafboots);
 
-        firehelmet = new ItemFireHelmet();
+        firehelmet = new ItemFireArmor(2, EntityEquipmentSlot.HEAD);
         GameRegistry.register(firehelmet);
 
-        firechestplate = new ItemFireChestplate();
+        firechestplate = new ItemFireArmor(6, EntityEquipmentSlot.CHEST);
         GameRegistry.register(firechestplate);
 
-        fireleggings = new ItemFireLeggings();
+        fireleggings = new ItemFireArmor(5, EntityEquipmentSlot.LEGS);
         GameRegistry.register(fireleggings);
 
-        fireboots = new ItemFireBoots();
+        fireboots = new ItemFireArmor(2, EntityEquipmentSlot.FEET);
         GameRegistry.register(fireboots);
 
-        waterhelmet = new ItemWaterHelmet();
+        waterhelmet = new ItemWaterArmor(2, EntityEquipmentSlot.HEAD);
         GameRegistry.register(waterhelmet);
 
-        waterchestplate = new ItemWaterChestplate();
+        waterchestplate = new ItemWaterArmor(6, EntityEquipmentSlot.CHEST);
         GameRegistry.register(waterchestplate);
 
-        waterleggings = new ItemWaterLeggings();
+        waterleggings = new ItemWaterArmor(5, EntityEquipmentSlot.LEGS);
         GameRegistry.register(waterleggings);
 
-        waterboots = new ItemWaterBoots();
+        waterboots = new ItemWaterArmor(2, EntityEquipmentSlot.FEET);
         GameRegistry.register(waterboots);
 
-        airhelmet = new ItemAirHelmet();
+        airhelmet = new ItemAirArmor(2, EntityEquipmentSlot.HEAD);
         GameRegistry.register(airhelmet);
 
-        airchestplate = new ItemAirChestplate();
+        airchestplate = new ItemAirArmor(6, EntityEquipmentSlot.CHEST);
         GameRegistry.register(airchestplate);
 
-        airleggings = new ItemAirLeggings();
+        airleggings = new ItemAirArmor(5, EntityEquipmentSlot.LEGS);
         GameRegistry.register(airleggings);
 
-        airboots = new ItemAirBoots();
+        airboots = new ItemAirArmor(2, EntityEquipmentSlot.FEET);
         GameRegistry.register(airboots);
 
         elementalpickaxe = new ItemElementalPickaxe();
@@ -228,18 +227,5 @@ public class ModItems
 
         sorcererswand = new ItemSorcerersWand();
         GameRegistry.register(sorcererswand);
-
-        int i;
-
-        for (i = 0; i < ItemCrafting.types.length; ++i)
-        {
-            String[] name = ItemCrafting.types.clone();
-            registerOreDictValues(crafting, i, name[i]);
-        }
-    }
-
-    static void registerOreDictValues(Item item, int meta, String value)
-    {
-        OreDictionary.registerOre(value, new ItemStack(item, 1, meta));
     }
 }

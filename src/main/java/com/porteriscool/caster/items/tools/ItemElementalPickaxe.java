@@ -7,15 +7,16 @@ import com.porteriscool.caster.items.ItemBase;
 import com.porteriscool.caster.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemTool;
 
 import java.util.Random;
 
-public class ItemElementalPickaxe extends ItemTool
+public class ItemElementalPickaxe extends ItemPickaxe
 {
     public ItemElementalPickaxe()
     {
-        super(ModItems.elementalMaterial, Sets.newHashSet(new Block[]{Blocks.STONE}));
+        super(ModItems.elementalMaterial);
         setUnlocalizedName(Reference.MOD_ID.toLowerCase() + ".elementalpickaxe");
         setRegistryName("elementalpickaxe");
         setMaxStackSize(1);

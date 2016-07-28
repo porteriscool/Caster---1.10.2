@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "caster:castingaltar" }
+    "facing=north": { "model": "caster:castingaltar" }
   }
 }
