@@ -1,5 +1,6 @@
 package com.porteriscool.caster;
 
+import com.porteriscool.caster.gui.GuiHandler;
 import com.porteriscool.caster.handler.ConfigurationHandler;
 import com.porteriscool.caster.handler.RecipeHandler;
 import com.porteriscool.caster.init.ModBlocks;
@@ -38,7 +39,7 @@ public class Caster
         ModBlocks.init();
         RecipeHandler.registerCraftingRecipes();
         proxy.registerRenders();
-        proxy.registerWorldGenerators();
+        GuiHandler.getInstance();
     }
 
     @Mod.EventHandler

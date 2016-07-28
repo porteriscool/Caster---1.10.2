@@ -6,17 +6,17 @@ import net.minecraftforge.fml.common.network.IGuiHandler;
 
 import java.util.HashMap;
 
-public class GuiHandler implements IGuiHandler
+public class GuiHandlerRegistry implements IGuiHandler
 {
     public void registerGuiHandler(IGuiHandler handler, int guiID)
     {
         registeredHandlers.put(guiID, handler);
     }
 
-    public static GuiHandler getInstance() { return guiHandler; }
+    public static GuiHandlerRegistry getInstance() { return guiHandler; }
 
     private HashMap<Integer, IGuiHandler> registeredHandlers = new HashMap<Integer, IGuiHandler>();
-    private static GuiHandler guiHandler = new GuiHandler();
+    private static GuiHandlerRegistry guiHandler = new GuiHandlerRegistry();
 
     @Override
     public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
